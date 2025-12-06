@@ -1,0 +1,189 @@
+{
+  "test_name": "prompt_test_1x5",
+  "timestamp": "2025-12-06T11:31:07.108880",
+  "total_responses": 5,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "IoT Deployment",
+        "description": "Government company seeking iot deployment solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "24/7 support"
+        ],
+        "budget_range": "$344K-$1509K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking iot deployment solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 260.92900000000003,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking iot deployment solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "Mobile App Development",
+        "description": "Government company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance",
+          "24/7 support"
+        ],
+        "budget_range": "$248K-$1981K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking mobile app development solutions\nIndustry: Government\nRequirements: ['Cost optimization', 'High security compliance', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 392.19300000000004,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking mobile app development solutions\nIndustry: Government\nRequirements: ['Cost optimization', 'High security compliance', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Technology",
+        "type": "Process Automation",
+        "description": "Technology company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Scalable architecture",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1800K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Technology company seeking process automation solutions\nIndustry: Technology\nRequirements: ['24/7 support', 'Scalable architecture', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 268.259,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Technology company seeking process automation solutions\nIndustry: Technology\nRequirements: ['24/7 support', 'Scalable architecture', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$471K-$799K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 279.904,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Retail",
+        "type": "AI Implementation",
+        "description": "Retail company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Mobile access",
+          "High security compliance"
+        ],
+        "budget_range": "$194K-$1573K",
+        "timeline": "8 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking ai implementation solutions\nIndustry: Retail\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Mobile access', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 250.929,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking ai implementation solutions\nIndustry: Retail\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Mobile access', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

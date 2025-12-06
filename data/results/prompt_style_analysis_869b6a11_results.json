@@ -1,0 +1,82 @@
+{
+  "timer_id": "prompt_style_analysis_869b6a11",
+  "test_id": "prompt_style_analysis",
+  "test_type": "prompt",
+  "test_name": "Prompt Style Analysis",
+  "inputs": {
+    "styles": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ]
+  },
+  "status": "passed",
+  "score": 0.9178692356625838,
+  "duration_ms": 6.625,
+  "timestamp": "2025-12-06T11:32:08.242904",
+  "outputs": {
+    "results": {
+      "instructional": {
+        "score": 0.6491091507048368,
+        "test_cases": 7,
+        "avg_response_time": 1009.5101743372745
+      },
+      "role-based": {
+        "score": 0.6943796482803744,
+        "test_cases": 7,
+        "avg_response_time": 1908.457200578149
+      },
+      "concise": {
+        "score": 0.7664092788460218,
+        "test_cases": 3,
+        "avg_response_time": 1821.9561448404988
+      },
+      "detailed": {
+        "score": 0.9178692356625838,
+        "test_cases": 6,
+        "avg_response_time": 1573.66435861723
+      },
+      "conversational": {
+        "score": 0.6114774664122906,
+        "test_cases": 6,
+        "avg_response_time": 862.5476833465752
+      }
+    },
+    "best_style": "detailed"
+  },
+  "details": {
+    "best_style": "detailed",
+    "results": {
+      "instructional": {
+        "score": 0.6491091507048368,
+        "test_cases": 7,
+        "avg_response_time": 1009.5101743372745
+      },
+      "role-based": {
+        "score": 0.6943796482803744,
+        "test_cases": 7,
+        "avg_response_time": 1908.457200578149
+      },
+      "concise": {
+        "score": 0.7664092788460218,
+        "test_cases": 3,
+        "avg_response_time": 1821.9561448404988
+      },
+      "detailed": {
+        "score": 0.9178692356625838,
+        "test_cases": 6,
+        "avg_response_time": 1573.66435861723
+      },
+      "conversational": {
+        "score": 0.6114774664122906,
+        "test_cases": 6,
+        "avg_response_time": 862.5476833465752
+      }
+    }
+  },
+  "justification": "Best performing style: detailed",
+  "start_time": "2025-12-06T11:32:08.236279",
+  "end_time": "2025-12-06T11:32:08.242904"
+}

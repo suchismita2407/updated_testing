@@ -1,0 +1,17 @@
+{
+  "timer_id": "kb_coverage_941b0694",
+  "test_type": "kb",
+  "test_name": "KB Coverage Test",
+  "inputs": {
+    "category": "coverage",
+    "query_count": 3,
+    "queries": [
+      "What cloud solutions are available for banking?",
+      "How does AI help in fraud detection?",
+      "What are the best practices for digital transformation?"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "timestamp": "2025-12-06T16:20:30.650790"
+}

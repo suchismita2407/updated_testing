@@ -1,0 +1,74 @@
+{
+  "timer_id": "agent_gap_analysis_f28e2e78",
+  "test_id": "agent_gap_analysis",
+  "test_type": "agent",
+  "test_name": "Agent gap_analysis",
+  "inputs": {
+    "function": "gap_analysis",
+    "query": "What are common gaps in digital transformation projects for banks?",
+    "expected_response": "JSON response with results",
+    "required_fields": [
+      "results",
+      "query"
+    ],
+    "min_results": 1
+  },
+  "status": "passed",
+  "score": 1.0,
+  "duration_ms": 338.95,
+  "timestamp": "2025-12-06T14:00:33.415706",
+  "outputs": {
+    "status_code": 200,
+    "response_data": {
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "query_timestamp": "2025-12-06T14:00:33",
+      "results": [
+        {
+          "category": "BFSI",
+          "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+          "relevance_note": "Highly relevant to your banking/finance query",
+          "score": 0.99,
+          "searched_by": "sales1",
+          "tags": [
+            "Banking",
+            "Fraud",
+            "AI",
+            "Success"
+          ],
+          "timestamp": "2025-12-06T14:00:33",
+          "title": "Global Bank Fraud Reduction",
+          "type": "success_story",
+          "user_role": "sales"
+        }
+      ],
+      "total_results": 1,
+      "user_info": {
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    "response_time_ms": 290.10999999999996,
+    "score_components": {
+      "http_status": 30,
+      "response_format": 20,
+      "has_results": 30,
+      "response_time": 20
+    },
+    "total_score": 100,
+    "max_score": 100
+  },
+  "details": {
+    "function": "gap_analysis",
+    "query": "What are common gaps in digital transformation projects for banks?",
+    "response_keys": [
+      "query",
+      "query_timestamp",
+      "results",
+      "total_results",
+      "user_info"
+    ]
+  },
+  "justification": "Agent function responded successfully. Score based on: HTTP status (30/30), format (20/20), results (30/30), speed (20/20)",
+  "start_time": "2025-12-06T14:00:33.076756",
+  "end_time": "2025-12-06T14:00:33.415706"
+}

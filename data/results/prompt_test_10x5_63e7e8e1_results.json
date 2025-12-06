@@ -1,0 +1,484 @@
+{
+  "timer_id": "prompt_test_10x5_63e7e8e1",
+  "test_id": "prompt_test_10x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (10 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "failed",
+  "score": 0.2,
+  "duration_ms": 14141.782,
+  "timestamp": "2025-12-06T13:42:18.420009",
+  "outputs": {
+    "summary": {
+      "total_tests": 50,
+      "successful_tests": 0,
+      "total_responses": 0,
+      "avg_response_length": 0,
+      "avg_response_time": 281.3737,
+      "prompt_performance": {},
+      "category_performance": {},
+      "detailed_responses": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 320.01800000000003,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 294.199,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 315.17499999999995,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 302.151,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 306.784,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 307.80600000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 317.7,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 309.798,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 314.47999999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 269.13300000000004,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 264.14700000000005,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 266.666,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 277.292,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 284.335,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 270.132,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 277.646,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 281.824,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 290.02099999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 270.183,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 273.889,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 264.444,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 286.31600000000003,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 272.098,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 266.067,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 279.225,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 282.114,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 277.484,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 287.31,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 284.728,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 266.87,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 272.68199999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 267.99699999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 265.83099999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 288.598,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 264.723,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 282.933,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 267.67600000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 274.318,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 271.077,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 266.599,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 271.447,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 282.948,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 271.228,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 283.37800000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 264.581,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Insurance company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 287.173,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Retail company seeking digital transformation solutions",
+              "status_code": 500,
+              "response_time_ms": 281.808,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 278.748,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking cybersecurity enhancement solutions",
+              "status_code": 500,
+              "response_time_ms": 261.947,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 500,
+              "response_time_ms": 282.95799999999997,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        }
+      ]
+    },
+    "score_components": {
+      "success_rate": 0.0,
+      "response_quality": 0.0,
+      "response_time": 20,
+      "coverage": 0
+    },
+    "total_score": 20.0,
+    "max_score": 100,
+    "best_prompt_type": null,
+    "best_prompt_score": 0,
+    "total_responses": 50,
+    "saved_responses_file": "prompt_test_10x5_20251206_134218.json"
+  },
+  "details": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "success_rate": 0.0,
+    "avg_response_time_ms": 281.3737,
+    "best_performing_prompt": null,
+    "total_detailed_responses": 50
+  },
+  "justification": "Prompt testing failed with only 0.0% success rate",
+  "start_time": "2025-12-06T13:42:04.278227",
+  "end_time": "2025-12-06T13:42:18.420009"
+}

@@ -1,0 +1,16 @@
+{
+  "timer_id": "agent_matching_f477042f",
+  "test_type": "agent",
+  "test_name": "Agent matching",
+  "inputs": {
+    "function": "matching",
+    "query": "Find relevant AI and cloud solutions for banking fraud detection",
+    "expected_response": "JSON response with results",
+    "required_fields": [
+      "results",
+      "query"
+    ],
+    "min_results": 1
+  },
+  "timestamp": "2025-12-06T14:05:21.414262"
+}

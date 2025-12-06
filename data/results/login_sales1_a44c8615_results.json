@@ -1,0 +1,32 @@
+{
+  "timer_id": "login_sales1_a44c8615",
+  "test_id": "login_sales1",
+  "test_type": "login",
+  "test_name": "Wrong password",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": false
+  },
+  "status": "passed",
+  "score": 1.0,
+  "duration_ms": 444.179,
+  "timestamp": "2025-12-06T11:27:30.936147",
+  "outputs": {
+    "status_code": 401,
+    "response_data": {
+      "error": "Invalid credentials"
+    },
+    "session_established": false,
+    "response_time_ms": 435.70799999999997,
+    "actual_success": false
+  },
+  "details": {
+    "expected_success": false,
+    "actual_success": false,
+    "match": true
+  },
+  "justification": "Login failed as expected",
+  "start_time": "2025-12-06T11:27:30.491968",
+  "end_time": "2025-12-06T11:27:30.936147"
+}

@@ -1,0 +1,21 @@
+{
+  "timer_id": "login_admin_e0d5b34c",
+  "test_id": "login_admin",
+  "test_type": "login",
+  "test_name": "Admin credentials",
+  "inputs": {
+    "username": "admin",
+    "password": "[HIDDEN]"
+  },
+  "status": "error",
+  "score": 0.0,
+  "duration_ms": 11.112,
+  "timestamp": "2025-12-06T12:50:50.751347",
+  "outputs": {
+    "error": "All connection attempts failed"
+  },
+  "details": {},
+  "justification": "Test failed with error: All connection attempts failed",
+  "start_time": "2025-12-06T12:50:50.740235",
+  "end_time": "2025-12-06T12:50:50.751347"
+}

@@ -1,0 +1,484 @@
+{
+  "timer_id": "prompt_test_10x5_08bdf3fb",
+  "test_id": "prompt_test_10x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (10 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "failed",
+  "score": 0.2,
+  "duration_ms": 15705.349,
+  "timestamp": "2025-12-06T13:41:13.727679",
+  "outputs": {
+    "summary": {
+      "total_tests": 50,
+      "successful_tests": 0,
+      "total_responses": 0,
+      "avg_response_length": 0,
+      "avg_response_time": 312.09686,
+      "prompt_performance": {},
+      "category_performance": {},
+      "detailed_responses": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 328.113,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 301.67100000000005,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 323.90200000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 304.02000000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 322.51,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 300.079,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 332.34599999999995,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 301.909,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 332.15099999999995,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 299.878,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 306.36999999999995,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 293.175,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 300.06899999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 316.17400000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 308.778,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 336.882,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 304.957,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 329.376,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 311.55699999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 319.295,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 300.56500000000005,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 306.03999999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 316.847,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 325.698,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 317.17699999999996,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 313.517,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 303.279,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 325.031,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 321.784,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 289.43600000000004,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 326.604,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 339.46500000000003,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 322.84499999999997,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 308.77700000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 302.80400000000003,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 306.258,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 289.879,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 307.11699999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 314.633,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 306.244,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 303.65799999999996,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 318.386,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 318.856,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 304.21700000000004,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 309.824,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Banking company seeking data analytics solutions",
+              "status_code": 500,
+              "response_time_ms": 318.538,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 500,
+              "response_time_ms": 302.739,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 500,
+              "response_time_ms": 320.346,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Education company seeking iot deployment solutions",
+              "status_code": 500,
+              "response_time_ms": 296.836,
+              "success": false,
+              "error": "HTTP 500"
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 500,
+              "response_time_ms": 294.231,
+              "success": false,
+              "error": "HTTP 500"
+            }
+          ],
+          "success_rate": 0.0
+        }
+      ]
+    },
+    "score_components": {
+      "success_rate": 0.0,
+      "response_quality": 0.0,
+      "response_time": 20,
+      "coverage": 0
+    },
+    "total_score": 20.0,
+    "max_score": 100,
+    "best_prompt_type": null,
+    "best_prompt_score": 0,
+    "total_responses": 50,
+    "saved_responses_file": "prompt_test_10x5_20251206_134113.json"
+  },
+  "details": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "success_rate": 0.0,
+    "avg_response_time_ms": 312.09686,
+    "best_performing_prompt": null,
+    "total_detailed_responses": 50
+  },
+  "justification": "Prompt testing failed with only 0.0% success rate",
+  "start_time": "2025-12-06T13:40:58.022330",
+  "end_time": "2025-12-06T13:41:13.727679"
+}

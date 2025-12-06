@@ -18,6 +18,33 @@ class DetailedTestRunner:
         self.metrics = metrics_collector
         self.session_cookie = None
         self.client = None
+        
+        # ACTUAL SYSTEM PROMPT FROM YOUR CHAT_SERVICE
+        self.system_prompt = """You are Sales EVA, a virtual sales advisor for TCS.
+        Your role is to help sales teams with offerings, solutions, and client conversations.
+        
+        Context from knowledge base:
+        {context}
+        
+        User Question: {message}
+        
+        As a sales advisor, provide:
+        1. Relevant offerings/solutions if applicable
+        2. Brief, actionable advice
+        3. Ask clarifying questions if needed
+        4. Reference specific success stories if relevant
+        
+        Answer in a professional, helpful tone:"""
+                
+        # Secondary prompts from chat_service
+        self.fallback_prompt = "Hello! I'm Sales EVA, your virtual sales advisor. How can I help you with offerings, solutions, or client opportunities today?"
+        self.help_prompt = """I can help you with:
+        1. Finding relevant offerings/solutions
+        2. Searching success stories/case studies
+        3. Analyzing client opportunities
+        4. Preparing sales pitches
+        
+        What would you like assistance with?"""
     
     async def _get_client(self):
         """Get HTTP client with session support"""
@@ -27,6 +54,478 @@ class DetailedTestRunner:
                 cookies=self.session_cookie if self.session_cookie else {}
             )
         return self.client
+
+    async def run_system_prompt_optimization_test(self) -> Dict:
+        """Test and optimize the actual system prompt from chat_service"""
+        # Start test
+        timer_id = self.metrics.start_test(
+            test_id="system_prompt_optimization",
+            test_type="prompt",
+            test_name="System Prompt Optimization",
+            inputs={
+                "system_prompt": self.system_prompt,
+                "fallback_prompt": self.fallback_prompt,
+                "help_prompt": self.help_prompt,
+                "test_categories": ["offerings", "opportunities", "case_studies", "gap_analysis"]
+            }
+        )
+        
+        try:
+            client = await self._get_client()
+            
+            # Generate test queries based on actual system prompt structure
+            test_queries = self._generate_test_queries_from_prompt()
+            
+            results = {
+                "total_queries": len(test_queries),
+                "successful_responses": 0,
+                "total_results": 0,
+                "response_quality_scores": [],
+                "response_times": [],
+                "category_performance": {},
+                "detailed_responses": []
+            }
+            
+            for query_data in test_queries:
+                query_start = datetime.now()
+                
+                try:
+                    # Build the full prompt based on chat_service logic
+                    if query_data.get("context"):
+                        full_prompt = self._build_prompt_with_context(
+                            query_data["message"],
+                            query_data["context"]
+                        )
+                    else:
+                        full_prompt = self._build_prompt_without_context(
+                            query_data["message"]
+                        )
+                    
+                    # Send to RAG endpoint (matching your app.py endpoint)
+                    response = await client.post(
+                        f"{self.base_url}/api/rag/search",
+                        json={"query": full_prompt}
+                    )
+                    
+                    query_end = datetime.now()
+                    duration_ms = (query_end - query_start).total_seconds() * 1000
+                    results["response_times"].append(duration_ms)
+                    
+                    if response.status_code == 200:
+                        response_data = response.json() if response.headers.get('content-type', '').startswith('application/json') else {"raw_response": response.text}
+                        
+                        results["successful_responses"] += 1
+                        
+                        # Evaluate response quality
+                        quality_score = self._evaluate_response_against_prompt(
+                            response_data, 
+                            query_data["message"],
+                            query_data.get("context", "")
+                        )
+                        results["response_quality_scores"].append(quality_score)
+                        
+                        # Count results
+                        if isinstance(response_data, dict) and "results" in response_data:
+                            results_list = response_data.get("results", [])
+                            if isinstance(results_list, list):
+                                results["total_results"] += len(results_list)
+                        
+                        # Track category performance
+                        category = query_data["category"]
+                        if category not in results["category_performance"]:
+                            results["category_performance"][category] = {
+                                "count": 0,
+                                "success": 0,
+                                "total_results": 0,
+                                "avg_quality": 0
+                            }
+                        
+                        results["category_performance"][category]["count"] += 1
+                        results["category_performance"][category]["success"] += 1
+                        results["category_performance"][category]["total_results"] += len(results_list) if isinstance(response_data, dict) and "results" in response_data else 0
+                        
+                        # Store detailed response
+                        detailed_response = {
+                            "query_type": query_data["type"],
+                            "category": category,
+                            "user_message": query_data["message"],
+                            "context_used": query_data.get("context", ""),
+                            "full_prompt": full_prompt[:500] + "..." if len(full_prompt) > 500 else full_prompt,
+                            "status_code": response.status_code,
+                            "response_time_ms": duration_ms,
+                            "response_data": response_data,
+                            "quality_score": quality_score,
+                            "success": True
+                        }
+                        results["detailed_responses"].append(detailed_response)
+                        
+                    else:
+                        # Failed response
+                        results["category_performance"].setdefault(query_data["category"], {"count": 0, "success": 0, "total_results": 0, "avg_quality": 0})
+                        results["category_performance"][query_data["category"]]["count"] += 1
+                        
+                        detailed_response = {
+                            "query_type": query_data["type"],
+                            "category": query_data["category"],
+                            "user_message": query_data["message"],
+                            "status_code": response.status_code,
+                            "response_time_ms": duration_ms,
+                            "success": False,
+                            "error": f"HTTP {response.status_code}"
+                        }
+                        results["detailed_responses"].append(detailed_response)
+                        
+                except Exception as query_error:
+                    results["category_performance"].setdefault(query_data["category"], {"count": 0, "success": 0, "total_results": 0, "avg_quality": 0})
+                    results["category_performance"][query_data["category"]]["count"] += 1
+                    
+                    detailed_response = {
+                        "query_type": query_data["type"],
+                        "category": query_data["category"],
+                        "user_message": query_data["message"],
+                        "status_code": 0,
+                        "error": str(query_error),
+                        "success": False
+                    }
+                    results["detailed_responses"].append(detailed_response)
+            
+            # Calculate metrics
+            success_rate = results["successful_responses"] / results["total_queries"] if results["total_queries"] > 0 else 0
+            
+            if results["response_quality_scores"]:
+                avg_quality_score = sum(results["response_quality_scores"]) / len(results["response_quality_scores"])
+            else:
+                avg_quality_score = 0
+            
+            if results["response_times"]:
+                avg_response_time = sum(results["response_times"]) / len(results["response_times"])
+            else:
+                avg_response_time = 0
+            
+            # Calculate score
+            score_components = {}
+            total_score = 0
+            max_score = 100
+            
+            # Success rate (40%)
+            score_components["success_rate"] = success_rate * 40
+            total_score += score_components["success_rate"]
+            
+            # Response quality (30%)
+            score_components["response_quality"] = avg_quality_score * 30
+            total_score += score_components["response_quality"]
+            
+            # Response time (20%)
+            if avg_response_time < 2000:
+                time_score = 20
+            elif avg_response_time < 5000:
+                time_score = 15
+            elif avg_response_time < 10000:
+                time_score = 10
+            else:
+                time_score = 5
+            score_components["response_time"] = time_score
+            total_score += score_components["response_time"]
+            
+            # Coverage across categories (10%)
+            unique_categories = len(results["category_performance"])
+            coverage_score = min(10, unique_categories * 2.5)  # 2.5 points per category up to 10
+            score_components["coverage"] = coverage_score
+            total_score += score_components["coverage"]
+            
+            # Normalize score
+            normalized_score = total_score / max_score
+            
+            # Calculate category averages
+            for category, perf in results["category_performance"].items():
+                if perf["count"] > 0:
+                    perf["success_rate"] = perf["success"] / perf["count"]
+                    perf["avg_results"] = perf["total_results"] / perf["count"] if perf["count"] > 0 else 0
+            
+            # Determine best performing category
+            best_category = None
+            best_success_rate = 0
+            for category, perf in results["category_performance"].items():
+                if perf.get("success_rate", 0) > best_success_rate:
+                    best_success_rate = perf["success_rate"]
+                    best_category = category
+            
+            # Determine status
+            if normalized_score >= 0.7:
+                status = "passed"
+                justification = f"System prompt optimization test passed with {success_rate*100:.1f}% success rate. Best category: {best_category} ({best_success_rate*100:.1f}%)"
+            elif normalized_score >= 0.5:
+                status = "warning"
+                justification = f"System prompt optimization test partially passed with {success_rate*100:.1f}% success rate. Needs improvement in {best_category} category."
+            else:
+                status = "failed"
+                justification = f"System prompt optimization test failed with only {success_rate*100:.1f}% success rate"
+            
+            # End test
+            self.metrics.end_test(
+                timer_id=timer_id,
+                status=status,
+                score=normalized_score,
+                outputs={
+                    "summary": {
+                        "total_queries": results["total_queries"],
+                        "successful_responses": results["successful_responses"],
+                        "success_rate": success_rate,
+                        "avg_quality_score": avg_quality_score,
+                        "avg_response_time_ms": avg_response_time,
+                        "total_results": results["total_results"]
+                    },
+                    "category_performance": results["category_performance"],
+                    "score_components": score_components,
+                    "total_score": total_score,
+                    "max_score": max_score,
+                    "best_performing_category": best_category,
+                    "detailed_responses": results["detailed_responses"][:10]  # Limit output
+                },
+                details={
+                    "system_prompt_tested": self.system_prompt[:200] + "...",
+                    "success_rate": success_rate,
+                    "avg_response_time_ms": avg_response_time,
+                    "categories_tested": list(results["category_performance"].keys())
+                },
+                justification=justification
+            )
+            
+            return {
+                "success": status == "passed",
+                "score": normalized_score,
+                "timer_id": timer_id,
+                "details": {
+                    "success_rate": success_rate,
+                    "avg_quality_score": avg_quality_score,
+                    "best_category": best_category
+                }
+            }
+                
+        except Exception as e:
+            self.metrics.end_test(
+                timer_id=timer_id,
+                status="error",
+                score=0.0,
+                outputs={"error": str(e)},
+                justification=f"System prompt optimization test failed with error: {str(e)}"
+            )
+            raise
+    
+    def _generate_test_queries_from_prompt(self) -> List[Dict]:
+        """Generate test queries based on the actual system prompt structure"""
+        # These queries mimic what real users would ask your Sales EVA system
+        test_queries = []
+        
+        # 1. Offerings-related queries (from your knowledge base)
+        offering_queries = [
+            {
+                "type": "offerings_search",
+                "category": "offerings",
+                "message": "Find AI solutions for banking fraud detection",
+                "context": ""
+            },
+            {
+                "type": "offerings_search",
+                "category": "offerings",
+                "message": "What cloud migration services do you offer?",
+                "context": ""
+            },
+            {
+                "type": "offerings_search",
+                "category": "offerings",
+                "message": "Show me cybersecurity offerings for financial services",
+                "context": ""
+            },
+            {
+                "type": "offerings_comparison",
+                "category": "offerings",
+                "message": "Compare AIOps platform vs traditional IT monitoring",
+                "context": ""
+            }
+        ]
+        
+        # 2. Opportunities analysis queries
+        opportunity_queries = [
+            {
+                "type": "opportunity_analysis",
+                "category": "opportunities",
+                "message": "Analyze this opportunity: Bank needs real-time payment processing system with 99.999% availability",
+                "context": "European bank, $15M budget, 18-month timeline"
+            },
+            {
+                "type": "opportunity_analysis",
+                "category": "opportunities",
+                "message": "What solutions would work for healthcare diagnostics AI system?",
+                "context": "Hospital network, FDA compliance required, $10M budget"
+            }
+        ]
+        
+        # 3. Case studies/success stories queries
+        case_study_queries = [
+            {
+                "type": "case_study_search",
+                "category": "case_studies",
+                "message": "Show me success stories in retail inventory optimization",
+                "context": ""
+            },
+            {
+                "type": "case_study_search",
+                "category": "case_studies",
+                "message": "Find banking case studies for anti-money laundering systems",
+                "context": ""
+            }
+        ]
+        
+        # 4. GAP analysis queries
+        gap_analysis_queries = [
+            {
+                "type": "gap_analysis",
+                "category": "gap_analysis",
+                "message": "Perform gap analysis for manufacturing predictive maintenance system",
+                "context": "Automotive manufacturer, 10,000 sensors, reduce downtime by 50%"
+            },
+            {
+                "type": "gap_analysis",
+                "category": "gap_analysis",
+                "message": "Analyze gaps for telecom 5G network slicing requirements",
+                "context": "Network slicing for eMBB, URLLC, mMTC services"
+            }
+        ]
+        
+        # 5. Mixed queries (testing the system prompt's ability to handle different types)
+        mixed_queries = [
+            {
+                "type": "mixed",
+                "category": "mixed",
+                "message": "Help me prepare a sales pitch for AI-powered contact center solution",
+                "context": "Retail client, need to reduce handling time by 40%"
+            },
+            {
+                "type": "mixed",
+                "category": "mixed",
+                "message": "What offerings and success stories are relevant for insurance claims automation?",
+                "context": "Insurance company, 100,000 policies monthly, reduce processing time by 80%"
+            }
+        ]
+        
+        # Combine all queries
+        test_queries = (offering_queries + opportunity_queries + 
+                       case_study_queries + gap_analysis_queries + mixed_queries)
+        
+        return test_queries
+    
+    def _build_prompt_with_context(self, message: str, context: str) -> str:
+        """Build prompt exactly as done in chat_service.py"""
+        return f"""You are Sales EVA, a virtual sales advisor for TCS.
+Your role is to help sales teams with offerings, solutions, and client conversations.
+
+Context from knowledge base:
+{context}
+
+User Question: {message}
+
+As a sales advisor, provide:
+1. Relevant offerings/solutions if applicable
+2. Brief, actionable advice
+3. Ask clarifying questions if needed
+4. Reference specific success stories if relevant
+
+Answer in a professional, helpful tone:"""
+    
+    def _build_prompt_without_context(self, message: str) -> str:
+        """Build prompt without context as done in chat_service.py"""
+        return f"""You are Sales EVA, a virtual sales advisor for TCS.
+Your role is to help sales teams with offerings, solutions, and client conversations.
+
+User Question: {message}
+
+As a sales advisor, provide:
+1. Relevant offerings/solutions if applicable
+2. Brief, actionable advice
+3. Ask clarifying questions if needed
+4. Reference specific success stories if relevant
+
+Answer in a professional, helpful tone:"""
+    
+    def _evaluate_response_against_prompt(self, response_data: Any, user_message: str, context: str = "") -> float:
+        """Evaluate if response follows the system prompt guidelines"""
+        quality_indicators = {
+            "mentions_offerings": 0,
+            "provides_advice": 0,
+            "asks_clarifying_questions": 0,
+            "references_success_stories": 0,
+            "professional_tone": 0,
+            "tc_specific": 0
+        }
+        
+        response_text = str(response_data).lower()
+        user_message_lower = user_message.lower()
+        
+        # Check if response mentions offerings/solutions
+        offering_keywords = ["offering", "solution", "product", "service", "platform"]
+        if any(keyword in response_text for keyword in offering_keywords):
+            quality_indicators["mentions_offerings"] = 1
+        
+        # Check if provides actionable advice
+        advice_keywords = ["recommend", "suggest", "advise", "consider", "implement", "deploy"]
+        if any(keyword in response_text for keyword in advice_keywords):
+            quality_indicators["provides_advice"] = 1
+        
+        # Check if asks clarifying questions
+        question_keywords = ["what", "when", "where", "which", "who", "how", "could you", "would you"]
+        question_count = sum(1 for keyword in question_keywords if keyword in response_text)
+        quality_indicators["asks_clarifying_questions"] = min(1.0, question_count / 3)
+        
+        # Check if references success stories
+        story_keywords = ["case study", "success story", "example", "customer", "client", "implemented"]
+        if any(keyword in response_text for keyword in story_keywords):
+            quality_indicators["references_success_stories"] = 1
+        
+        # Check professional tone
+        professional_keywords = ["professional", "help", "assist", "support", "advisor", "expert"]
+        unprofessional_keywords = ["can't", "won't", "unable", "sorry", "apologize"]
+        
+        professional_count = sum(1 for keyword in professional_keywords if keyword in response_text)
+        unprofessional_count = sum(1 for keyword in unprofessional_keywords if keyword in response_text)
+        quality_indicators["professional_tone"] = max(0, (professional_count - unprofessional_count) / 5)
+        
+        # Check if TCS-specific
+        tcs_keywords = ["tcs", "tata consultancy", "tata consult"]
+        if any(keyword in response_text for keyword in tcs_keywords):
+            quality_indicators["tc_specific"] = 1
+        
+        # Calculate overall quality score (weighted average)
+        weights = {
+            "mentions_offerings": 0.25,
+            "provides_advice": 0.20,
+            "asks_clarifying_questions": 0.15,
+            "references_success_stories": 0.15,
+            "professional_tone": 0.15,
+            "tc_specific": 0.10
+        }
+        
+        total_score = 0
+        for indicator, weight in weights.items():
+            total_score += quality_indicators[indicator] * weight
+        
+        return min(1.0, total_score)
+    
+    # Also update the existing run_prompt_test method to use the actual system prompt
+    async def run_prompt_test(self, prompt_count: int, test_case_count: int) -> Dict:
+        """Run prompt testing using actual system prompt structure"""
+        # Start test
+        timer_id = self.metrics.start_test(
+            test_id=f"prompt_test_{prompt_count}x{test_case_count}",
+            test_type="prompt",
+            test_name=f"Prompt Testing ({prompt_count} prompts, {test_case_count} cases)",
+            inputs={
+                "prompt_count": prompt_count,
+                "test_case_count": test_case_count,
+                "system_prompt": self.system_prompt[:100] + "...",  # Include actual prompt
+                "test_categories": ["offerings", "opportunities", "case_studies"]
+            }
+        )
     
     async def run_login_test(self, username: str, password: str, test_name: str) -> Dict:
         """Run login test with detailed inputs/outputs"""

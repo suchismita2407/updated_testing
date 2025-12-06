@@ -1,0 +1,74 @@
+{
+  "timer_id": "kb_relevance_02f25758",
+  "test_id": "kb_relevance",
+  "test_type": "kb",
+  "test_name": "KB Relevance Test",
+  "inputs": {
+    "category": "relevance",
+    "query_count": 3,
+    "queries": [
+      "Sales strategies for cloud migration",
+      "How to pitch AI solutions to banks",
+      "ROI calculation for digital transformation"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "status": "passed",
+  "score": 0.76,
+  "duration_ms": 863.361,
+  "timestamp": "2025-12-06T13:49:52.284178",
+  "outputs": {
+    "summary": {
+      "total_queries": 3,
+      "successful_responses": 3,
+      "total_results": 3,
+      "avg_relevance": 0.10000000000000002,
+      "response_times": [
+        276.128,
+        277.54499999999996,
+        271.48299999999995
+      ]
+    },
+    "detailed_results": [
+      {
+        "query": "Sales strategies for cloud migration",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 276.128,
+        "success": true
+      },
+      {
+        "query": "How to pitch AI solutions to banks",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 277.54499999999996,
+        "success": true
+      },
+      {
+        "query": "ROI calculation for digital transformation",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 271.48299999999995,
+        "success": true
+      }
+    ],
+    "score_components": {
+      "success_rate": 40.0,
+      "result_quality": 6.0,
+      "response_time": 20,
+      "consistency": 10
+    },
+    "total_score": 76.0,
+    "max_score": 100
+  },
+  "details": {
+    "category": "relevance",
+    "success_rate": 1.0,
+    "avg_response_time_ms": 275.05199999999996,
+    "total_results": 3
+  },
+  "justification": "KB relevance test passed with 100.0% success rate, 3 total results, avg response time 275ms",
+  "start_time": "2025-12-06T13:49:51.420817",
+  "end_time": "2025-12-06T13:49:52.284178"
+}

@@ -1,0 +1,17 @@
+{
+  "timer_id": "e2e_custom_e556f179",
+  "test_type": "e2e",
+  "test_name": "E2E Scenario: Custom",
+  "inputs": {
+    "scenario_name": "Custom",
+    "scenario_description": "cyber",
+    "steps": [
+      "Login with valid credentials",
+      "Analyze opportunity with agent",
+      "Search knowledge base",
+      "Generate recommendations",
+      "Create proposal outline"
+    ]
+  },
+  "timestamp": "2025-12-06T14:06:53.320811"
+}

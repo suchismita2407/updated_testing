@@ -1,0 +1,17 @@
+{
+  "timer_id": "kb_relevance_77a19322",
+  "test_type": "kb",
+  "test_name": "KB Relevance Test",
+  "inputs": {
+    "category": "relevance",
+    "query_count": 3,
+    "queries": [
+      "Sales strategies for cloud migration",
+      "How to pitch AI solutions to banks",
+      "ROI calculation for digital transformation"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "timestamp": "2025-12-06T13:00:34.857333"
+}

@@ -1,0 +1,134 @@
+{
+  "timer_id": "prompt_test_1x5_3510e738",
+  "test_id": "prompt_test_1x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (1 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 1,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "passed",
+  "score": 0.78,
+  "duration_ms": 1476.667,
+  "timestamp": "2025-12-06T11:31:07.114662",
+  "outputs": {
+    "summary": {
+      "total_tests": 5,
+      "successful_tests": 5,
+      "total_responses": 5,
+      "avg_response_length": 443.2,
+      "avg_response_time": 290.44280000000003,
+      "prompt_performance": {
+        "instructional": {
+          "count": 5,
+          "success": 5,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        }
+      },
+      "category_performance": {
+        "Government": {
+          "count": 2,
+          "success": 2,
+          "avg_score": 0
+        },
+        "Technology": {
+          "count": 1,
+          "success": 1,
+          "avg_score": 0
+        },
+        "Healthcare": {
+          "count": 1,
+          "success": 1,
+          "avg_score": 0
+        },
+        "Retail": {
+          "count": 1,
+          "success": 1,
+          "avg_score": 0
+        }
+      },
+      "detailed_responses": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 260.92900000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 392.19300000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.259,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 279.904,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 250.929,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        }
+      ]
+    },
+    "score_components": {
+      "success_rate": 40.0,
+      "response_quality": 10.0,
+      "response_time": 20,
+      "coverage": 8
+    },
+    "total_score": 78.0,
+    "max_score": 100,
+    "best_prompt_type": "instructional",
+    "best_prompt_score": 1.0,
+    "total_responses": 5,
+    "saved_responses_file": "prompt_test_1x5_20251206_113107.json"
+  },
+  "details": {
+    "prompt_count": 1,
+    "test_case_count": 5,
+    "success_rate": 1.0,
+    "avg_response_time_ms": 290.44280000000003,
+    "best_performing_prompt": "instructional",
+    "total_detailed_responses": 5
+  },
+  "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+  "start_time": "2025-12-06T11:31:05.637995",
+  "end_time": "2025-12-06T11:31:07.114662"
+}

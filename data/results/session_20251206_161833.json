@@ -1,0 +1,108 @@
+[
+  {
+    "timer_id": "login_sales1_eb079d02",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1959.711,
+    "timestamp": "2025-12-06T16:18:19.580611",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 704.394,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:18:17.620900",
+    "end_time": "2025-12-06T16:18:19.580611"
+  },
+  {
+    "timer_id": "login_admin_72261329",
+    "test_id": "login_admin",
+    "test_type": "login",
+    "test_name": "Admin credentials",
+    "inputs": {
+      "username": "admin",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 680.455,
+    "timestamp": "2025-12-06T16:18:27.766715",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 3,
+          "role": "admin",
+          "username": "admin"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 644.223,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:18:27.086260",
+    "end_time": "2025-12-06T16:18:27.766715"
+  },
+  {
+    "timer_id": "login_invalid_user_ba4e4be7",
+    "test_id": "login_invalid_user",
+    "test_type": "login",
+    "test_name": "Invalid username",
+    "inputs": {
+      "username": "invalid_user",
+      "password": "[HIDDEN]",
+      "expected_success": false
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 292.703,
+    "timestamp": "2025-12-06T16:18:33.322760",
+    "outputs": {
+      "status_code": 401,
+      "response_data": {
+        "error": "Invalid credentials"
+      },
+      "session_established": false,
+      "response_time_ms": 285.06399999999996,
+      "actual_success": false
+    },
+    "details": {
+      "expected_success": false,
+      "actual_success": false,
+      "match": true
+    },
+    "justification": "Login failed as expected",
+    "start_time": "2025-12-06T16:18:33.030057",
+    "end_time": "2025-12-06T16:18:33.322760"
+  }
+]

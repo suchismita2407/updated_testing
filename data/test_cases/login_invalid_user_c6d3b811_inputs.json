@@ -1,0 +1,11 @@
+{
+  "timer_id": "login_invalid_user_c6d3b811",
+  "test_type": "login",
+  "test_name": "Invalid username",
+  "inputs": {
+    "username": "invalid_user",
+    "password": "[HIDDEN]",
+    "expected_success": false
+  },
+  "timestamp": "2025-12-06T11:27:27.128097"
+}

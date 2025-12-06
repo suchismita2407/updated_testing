@@ -1,0 +1,40 @@
+{
+  "timer_id": "test_case_generation_62621e8c",
+  "test_id": "test_case_generation",
+  "test_type": "system",
+  "test_name": "Generate 50 Test Cases",
+  "inputs": {
+    "count": 50
+  },
+  "status": "failed",
+  "score": 0.38158987325970106,
+  "duration_ms": 9.434,
+  "timestamp": "2025-12-06T14:03:17.150120",
+  "outputs": {
+    "details": {
+      "count_generated": 0,
+      "llm_used": "DeepSeek-V3",
+      "generation_time": 6985.634529823002,
+      "categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing"
+      ]
+    }
+  },
+  "details": {
+    "count_generated": 0,
+    "llm_used": "DeepSeek-V3",
+    "generation_time": 6985.634529823002,
+    "categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing"
+    ]
+  },
+  "justification": "Generated 50 test cases with 0.38 quality score",
+  "start_time": "2025-12-06T14:03:17.140686",
+  "end_time": "2025-12-06T14:03:17.150120"
+}

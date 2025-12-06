@@ -1,0 +1,1807 @@
+{
+  "test_name": "prompt_test_10x5",
+  "timestamp": "2025-12-06T13:15:19.356829",
+  "total_responses": 50,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 264.872,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 293.657,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 284.48,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 275.676,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 293.293,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 292.025,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 289.149,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 277.668,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 283.10699999999997,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 268.31100000000004,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 286.0,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 280.829,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 274.43899999999996,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 285.817,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 284.171,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 283.01500000000004,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 267.933,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 281.857,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 278.132,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 289.967,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 275.278,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 290.06,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 280.07,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 273.199,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 289.811,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 287.93600000000004,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 283.67199999999997,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 276.45,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 291.432,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 297.282,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 282.688,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 277.42499999999995,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 288.793,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 284.149,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 276.84999999999997,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 284.948,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 289.383,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 274.895,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 284.392,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.67199999999997,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 289.596,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 275.727,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 290.106,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 283.30699999999996,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.386,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Mobile App Development",
+        "description": "Insurance company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$198K-$1241K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 283.382,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking mobile app development solutions\nIndustry: Insurance\nRequirements: ['Cost optimization', 'Multi-cloud support', 'High security compliance', 'Mobile access']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$165K-$1244K",
+        "timeline": "9 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 277.126,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "High security compliance"
+        ],
+        "budget_range": "$204K-$1295K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 290.531,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$170K-$1265K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 277.049,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Digital Transformation",
+        "description": "Insurance company seeking digital transformation solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$214K-$1333K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 270.086,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking digital transformation solutions\nIndustry: Insurance\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

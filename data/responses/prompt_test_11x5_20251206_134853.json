@@ -1,0 +1,2855 @@
+{
+  "test_name": "prompt_test_11x5",
+  "timestamp": "2025-12-06T13:48:53.593458",
+  "total_responses": 55,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 280.64099999999996,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:38",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T13:48:38",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 272.382,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:38",
+        "results": [
+          {
+            "category": "Security",
+            "content": "Managed Detection and Response services providing 24/7 security monitoring, threat hunting, and incident response with SLA-backed guarantees.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Cybersecurity",
+              "MDR",
+              "Security",
+              "Compliance"
+            ],
+            "timestamp": "2025-12-06T13:48:38",
+            "title": "Cybersecurity MDR Services",
+            "type": "service",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 282.806,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:39",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T13:48:39",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 278.52,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:39",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.85,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T13:48:39",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 305.622,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:39",
+        "results": [
+          {
+            "category": "Retail/Manufacturing",
+            "content": "IoT and AI-driven supply chain solution that reduces inventory costs by 30% and improves delivery accuracy by 40% for retail and manufacturing clients.",
+            "score": 0.89,
+            "searched_by": "sales1",
+            "tags": [
+              "IoT",
+              "Supply Chain",
+              "Retail",
+              "Manufacturing"
+            ],
+            "timestamp": "2025-12-06T13:48:39",
+            "title": "Supply Chain Optimization",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 265.426,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:39",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "score": 0.84,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T13:48:39",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 296.311,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:40",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:40",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 281.77000000000004,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:40",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T13:48:40",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 273.16200000000003,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:40",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T13:48:40",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 294.26000000000005,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:41",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.84,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T13:48:41",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 279.281,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:41",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T13:48:41",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 275.435,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:41",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:41",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 274.512,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:41",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "relevance_note": "Highly relevant to your banking/finance query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:41",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 271.13599999999997,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:42",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T13:48:42",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 287.901,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:42",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T13:48:42",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 277.04200000000003,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:42",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T13:48:42",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 285.824,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:43",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:43",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 279.41700000000003,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:43",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T13:48:43",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 270.391,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:43",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:43",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 278.598,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:43",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T13:48:43",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 285.21999999999997,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:44",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:44",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 271.774,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:44",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:44",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 281.81800000000004,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:44",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T13:48:44",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 286.721,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:45",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T13:48:45",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 263.602,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:45",
+        "results": [
+          {
+            "category": "AI/Automation",
+            "content": "Enterprise-grade AI platform for autonomous IT operations that automates routine tasks, predicts issues before they occur, and optimizes IT costs.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "ignio",
+              "Automation",
+              "AI",
+              "IT Operations"
+            ],
+            "timestamp": "2025-12-06T13:48:45",
+            "title": "TCS ignio\u2122 AIOps",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 282.782,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:45",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:45",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 272.81300000000005,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:45",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "score": 0.92,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:45",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 277.864,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:46",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T13:48:46",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 284.697,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:46",
+        "results": [
+          {
+            "category": "AI/Analytics",
+            "content": "TCS AIOps provides AI-driven IT operations management with predictive analytics for 40% faster incident resolution and 30% reduction in IT costs.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "AI",
+              "IT Operations",
+              "Predictive Analytics"
+            ],
+            "timestamp": "2025-12-06T13:48:46",
+            "title": "TCS AIOps Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 270.563,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:46",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "score": 0.86,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T13:48:46",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 259.685,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:46",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.86,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T13:48:46",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 281.968,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:47",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T13:48:47",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 288.882,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:47",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "score": 0.85,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T13:48:47",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 277.325,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:47",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T13:48:47",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 279.913,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:48",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.86,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T13:48:48",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 277.72799999999995,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:48",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:48",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 285.322,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:48",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.79,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T13:48:48",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 280.892,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:48",
+        "results": [
+          {
+            "category": "AI/Analytics",
+            "content": "TCS AIOps provides AI-driven IT operations management with predictive analytics for 40% faster incident resolution and 30% reduction in IT costs.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "AI",
+              "IT Operations",
+              "Predictive Analytics"
+            ],
+            "timestamp": "2025-12-06T13:48:48",
+            "title": "TCS AIOps Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 275.287,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:49",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T13:48:49",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 276.126,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:49",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T13:48:49",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 289.074,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:49",
+        "results": [
+          {
+            "category": "Retail/Manufacturing",
+            "content": "IoT and AI-driven supply chain solution that reduces inventory costs by 30% and improves delivery accuracy by 40% for retail and manufacturing clients.",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "IoT",
+              "Supply Chain",
+              "Retail",
+              "Manufacturing"
+            ],
+            "timestamp": "2025-12-06T13:48:49",
+            "title": "Supply Chain Optimization",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 258.96000000000004,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:50",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.89,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T13:48:50",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 276.13,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:50",
+        "results": [
+          {
+            "category": "AI/Automation",
+            "content": "Enterprise-grade AI platform for autonomous IT operations that automates routine tasks, predicts issues before they occur, and optimizes IT costs.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "ignio",
+              "Automation",
+              "AI",
+              "IT Operations"
+            ],
+            "timestamp": "2025-12-06T13:48:50",
+            "title": "TCS ignio\u2122 AIOps",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 261.962,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:50",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "score": 0.87,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T13:48:50",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 265.375,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:50",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:50",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 279.97499999999997,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:51",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:51",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 274.45399999999995,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:51",
+        "results": [
+          {
+            "category": "Security",
+            "content": "Managed Detection and Response services providing 24/7 security monitoring, threat hunting, and incident response with SLA-backed guarantees.",
+            "score": 0.93,
+            "searched_by": "sales1",
+            "tags": [
+              "Cybersecurity",
+              "MDR",
+              "Security",
+              "Compliance"
+            ],
+            "timestamp": "2025-12-06T13:48:51",
+            "title": "Cybersecurity MDR Services",
+            "type": "service",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 259.729,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:51",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T13:48:51",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.98699999999997,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:51",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T13:48:51",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 265.70899999999995,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:52",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T13:48:52",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 11,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "High security compliance",
+          "Cost optimization",
+          "Real-time analytics",
+          "Scalable architecture"
+        ],
+        "budget_range": "$361K-$1505K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 285.337,
+      "response_data": {
+        "query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Cost optimization', 'Real-time analytics', 'Scalable architecture']",
+        "query_timestamp": "2025-12-06T13:48:52",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "score": 0.93,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T13:48:52",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 11,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Insurance",
+        "type": "Cybersecurity Enhancement",
+        "description": "Insurance company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Real-time analytics",
+          "Mobile access"
+        ],
+        "budget_range": "$451K-$580K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 282.04200000000003,
+      "response_data": {
+        "query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking cybersecurity enhancement solutions\nIndustry: Insurance\nRequirements: ['Real-time analytics', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:52",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.81,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T13:48:52",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 11,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "Digital Transformation",
+        "description": "Banking company seeking digital transformation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "24/7 support"
+        ],
+        "budget_range": "$402K-$1251K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 282.933,
+      "response_data": {
+        "query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking digital transformation solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', '24/7 support']",
+        "query_timestamp": "2025-12-06T13:48:53",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T13:48:53",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 11,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Cloud Migration",
+        "description": "Government company seeking cloud migration solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Cost optimization"
+        ],
+        "budget_range": "$252K-$1543K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 274.111,
+      "response_data": {
+        "query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cloud migration solutions\nIndustry: Government\nRequirements: ['Mobile access', 'Scalable architecture', 'Cost optimization']",
+        "query_timestamp": "2025-12-06T13:48:53",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T13:48:53",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 11,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Insurance",
+        "type": "Data Analytics",
+        "description": "Insurance company seeking data analytics solutions",
+        "requirements": [
+          "High security compliance",
+          "Mobile access"
+        ],
+        "budget_range": "$467K-$838K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+      "status_code": 200,
+      "response_time_ms": 276.023,
+      "response_data": {
+        "query": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Insurance company seeking data analytics solutions\nIndustry: Insurance\nRequirements: ['High security compliance', 'Mobile access']",
+        "query_timestamp": "2025-12-06T13:48:53",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.89,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T13:48:53",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

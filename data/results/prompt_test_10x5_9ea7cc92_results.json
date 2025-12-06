@@ -1,0 +1,531 @@
+{
+  "timer_id": "prompt_test_10x5_9ea7cc92",
+  "test_id": "prompt_test_10x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (10 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "passed",
+  "score": 0.76,
+  "duration_ms": 13734.460000000001,
+  "timestamp": "2025-12-06T11:19:01.539454",
+  "outputs": {
+    "summary": {
+      "total_tests": 50,
+      "successful_tests": 50,
+      "total_responses": 50,
+      "avg_response_length": 434.7,
+      "avg_response_time": 273.67024000000004,
+      "prompt_performance": {
+        "instructional": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "role-based": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "concise": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "detailed": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "conversational": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        }
+      },
+      "category_performance": {
+        "Banking": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Government": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Healthcare": {
+          "count": 30,
+          "success": 30,
+          "avg_score": 0
+        }
+      },
+      "detailed_responses": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 261.172,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 269.28000000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 280.84999999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 266.015,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 270.312,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 280.18399999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 257.733,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 275.473,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 269.382,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 263.849,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 267.639,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 280.067,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.228,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 284.95500000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 282.74100000000004,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 248.65300000000002,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 280.334,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.957,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 288.30699999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 267.226,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 266.65,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 294.002,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 274.155,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 281.52,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 282.45799999999997,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 260.666,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 250.98100000000002,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 283.247,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 283.989,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 283.197,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 265.505,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.766,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 286.339,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 283.19,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 273.98,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 271.504,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 293.854,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 264.551,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 268.845,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 287.33799999999997,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 266.876,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 254.59599999999998,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.253,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 280.561,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 277.34700000000004,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Banking company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 273.508,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 265.573,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.528,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 253.67600000000002,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+              "status_code": 200,
+              "response_time_ms": 280.5,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        }
+      ]
+    },
+    "score_components": {
+      "success_rate": 40.0,
+      "response_quality": 10.0,
+      "response_time": 20,
+      "coverage": 6
+    },
+    "total_score": 76.0,
+    "max_score": 100,
+    "best_prompt_type": "instructional",
+    "best_prompt_score": 1.0,
+    "total_responses": 50,
+    "saved_responses_file": "prompt_test_10x5_20251206_111901.json"
+  },
+  "details": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "success_rate": 1.0,
+    "avg_response_time_ms": 273.67024000000004,
+    "best_performing_prompt": "instructional",
+    "total_detailed_responses": 50
+  },
+  "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+  "start_time": "2025-12-06T11:18:47.804994",
+  "end_time": "2025-12-06T11:19:01.539454"
+}

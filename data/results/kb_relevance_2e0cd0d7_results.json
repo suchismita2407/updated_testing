@@ -1,0 +1,74 @@
+{
+  "timer_id": "kb_relevance_2e0cd0d7",
+  "test_id": "kb_relevance",
+  "test_type": "kb",
+  "test_name": "KB Relevance Test",
+  "inputs": {
+    "category": "relevance",
+    "query_count": 3,
+    "queries": [
+      "Sales strategies for cloud migration",
+      "How to pitch AI solutions to banks",
+      "ROI calculation for digital transformation"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "status": "passed",
+  "score": 0.76,
+  "duration_ms": 884.864,
+  "timestamp": "2025-12-06T16:20:34.284755",
+  "outputs": {
+    "summary": {
+      "total_queries": 3,
+      "successful_responses": 3,
+      "total_results": 3,
+      "avg_relevance": 0.10000000000000002,
+      "response_times": [
+        272.401,
+        290.301,
+        282.823
+      ]
+    },
+    "detailed_results": [
+      {
+        "query": "Sales strategies for cloud migration",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 272.401,
+        "success": true
+      },
+      {
+        "query": "How to pitch AI solutions to banks",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 290.301,
+        "success": true
+      },
+      {
+        "query": "ROI calculation for digital transformation",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 282.823,
+        "success": true
+      }
+    ],
+    "score_components": {
+      "success_rate": 40.0,
+      "result_quality": 6.0,
+      "response_time": 20,
+      "consistency": 10
+    },
+    "total_score": 76.0,
+    "max_score": 100
+  },
+  "details": {
+    "category": "relevance",
+    "success_rate": 1.0,
+    "avg_response_time_ms": 281.84166666666664,
+    "total_results": 3
+  },
+  "justification": "KB relevance test passed with 100.0% success rate, 3 total results, avg response time 282ms",
+  "start_time": "2025-12-06T16:20:33.399891",
+  "end_time": "2025-12-06T16:20:34.284755"
+}

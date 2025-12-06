@@ -1,0 +1,17 @@
+{
+  "timer_id": "kb_consistency_e0fd381b",
+  "test_type": "kb",
+  "test_name": "KB Consistency Test",
+  "inputs": {
+    "category": "consistency",
+    "query_count": 3,
+    "queries": [
+      "What is the difference between public and private cloud?",
+      "Compare machine learning vs deep learning",
+      "Benefits of microservices architecture"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "timestamp": "2025-12-06T13:00:33.940929"
+}

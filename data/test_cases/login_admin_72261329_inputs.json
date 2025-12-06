@@ -1,0 +1,11 @@
+{
+  "timer_id": "login_admin_72261329",
+  "test_type": "login",
+  "test_name": "Admin credentials",
+  "inputs": {
+    "username": "admin",
+    "password": "[HIDDEN]",
+    "expected_success": true
+  },
+  "timestamp": "2025-12-06T16:18:27.086260"
+}

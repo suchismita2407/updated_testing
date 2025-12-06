@@ -1,0 +1,24 @@
+{
+  "timer_id": "prompt_test_1x5_e100f4cf",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (1 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 1,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "timestamp": "2025-12-06T11:31:04.780745"
+}

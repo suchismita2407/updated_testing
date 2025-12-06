@@ -1,0 +1,1608 @@
+[
+  {
+    "timer_id": "login_sales1_eb079d02",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1959.711,
+    "timestamp": "2025-12-06T16:18:19.580611",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 704.394,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:18:17.620900",
+    "end_time": "2025-12-06T16:18:19.580611"
+  },
+  {
+    "timer_id": "login_admin_72261329",
+    "test_id": "login_admin",
+    "test_type": "login",
+    "test_name": "Admin credentials",
+    "inputs": {
+      "username": "admin",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 680.455,
+    "timestamp": "2025-12-06T16:18:27.766715",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 3,
+          "role": "admin",
+          "username": "admin"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 644.223,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:18:27.086260",
+    "end_time": "2025-12-06T16:18:27.766715"
+  },
+  {
+    "timer_id": "login_invalid_user_ba4e4be7",
+    "test_id": "login_invalid_user",
+    "test_type": "login",
+    "test_name": "Invalid username",
+    "inputs": {
+      "username": "invalid_user",
+      "password": "[HIDDEN]",
+      "expected_success": false
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 292.703,
+    "timestamp": "2025-12-06T16:18:33.322760",
+    "outputs": {
+      "status_code": 401,
+      "response_data": {
+        "error": "Invalid credentials"
+      },
+      "session_established": false,
+      "response_time_ms": 285.06399999999996,
+      "actual_success": false
+    },
+    "details": {
+      "expected_success": false,
+      "actual_success": false,
+      "match": true
+    },
+    "justification": "Login failed as expected",
+    "start_time": "2025-12-06T16:18:33.030057",
+    "end_time": "2025-12-06T16:18:33.322760"
+  },
+  {
+    "timer_id": "prompt_test_10x5_79497260",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "failed",
+    "score": 0.2,
+    "duration_ms": 14000.662,
+    "timestamp": "2025-12-06T16:18:55.773186",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 0,
+        "total_responses": 0,
+        "avg_response_length": 0,
+        "avg_response_time": 278.07522,
+        "prompt_performance": {},
+        "category_performance": {},
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 271.995,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 302.252,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 284.596,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 275.973,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 284.334,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 269.583,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 280.97499999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 282.60999999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 286.37600000000003,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 277.68,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 283.656,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 285.486,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 277.68399999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 278.944,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 286.28700000000003,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 258.354,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 282.614,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 273.43,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 273.652,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 284.372,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 279.25100000000003,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 287.635,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 278.505,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 272.447,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 282.49600000000004,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 274.444,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 279.955,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 278.014,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 277.594,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 288.051,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 271.949,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 271.464,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 274.745,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 270.822,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 266.06600000000003,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 282.806,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 268.001,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 282.798,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 298.861,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 253.728,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 286.81600000000003,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 277.36499999999995,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 284.23199999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 265.049,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 282.688,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 277.342,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 401,
+                "response_time_ms": 264.108,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 276.99600000000004,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 271.77099999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 276.909,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 0.0,
+        "response_quality": 0.0,
+        "response_time": 20,
+        "coverage": 0
+      },
+      "total_score": 20.0,
+      "max_score": 100,
+      "best_prompt_type": null,
+      "best_prompt_score": 0,
+      "total_responses": 50,
+      "saved_responses_file": "prompt_test_10x5_20251206_161855.json"
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 0.0,
+      "avg_response_time_ms": 278.07522,
+      "best_performing_prompt": null,
+      "total_detailed_responses": 50
+    },
+    "justification": "Prompt testing failed with only 0.0% success rate",
+    "start_time": "2025-12-06T16:18:41.772524",
+    "end_time": "2025-12-06T16:18:55.773186"
+  },
+  {
+    "timer_id": "login_sales1_df65f079",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 638.513,
+    "timestamp": "2025-12-06T16:19:18.550251",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 625.891,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:19:17.911738",
+    "end_time": "2025-12-06T16:19:18.550251"
+  },
+  {
+    "timer_id": "prompt_test_10x5_df6977ab",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "passed",
+    "score": 0.78,
+    "duration_ms": 14231.215,
+    "timestamp": "2025-12-06T16:19:40.001343",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 50,
+        "total_responses": 50,
+        "avg_response_length": 852.16,
+        "avg_response_time": 282.71193999999997,
+        "prompt_performance": {
+          "instructional": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "role-based": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "concise": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "detailed": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "conversational": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          }
+        },
+        "category_performance": {
+          "Banking": {
+            "count": 20,
+            "success": 20,
+            "avg_score": 0
+          },
+          "Education": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          },
+          "Healthcare": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          },
+          "Manufacturing": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          }
+        },
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 269.306,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 276.217,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 283.726,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 283.871,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 269.77,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 291.29699999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 287.906,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 275.511,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 287.828,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 281.786,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 284.27799999999996,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 279.764,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 278.18100000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 289.087,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 276.06399999999996,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 287.04200000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 280.47299999999996,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 273.127,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 285.534,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 273.615,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 287.065,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 281.01,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 283.16400000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 284.994,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 288.204,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 276.62199999999996,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 290.68100000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 282.955,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 266.72200000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 291.966,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 291.932,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 275.021,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 289.704,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 283.63,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 283.198,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 287.70099999999996,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 272.464,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 285.171,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 287.89,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 293.362,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 285.67199999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 279.51,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 291.617,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 282.30899999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 300.628,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Banking company seeking mobile app development solutions",
+                "status_code": 200,
+                "response_time_ms": 283.21299999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Education company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 267.28200000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 289.392,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 277.14,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 280.995,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 40.0,
+        "response_quality": 10.0,
+        "response_time": 20,
+        "coverage": 8
+      },
+      "total_score": 78.0,
+      "max_score": 100,
+      "best_prompt_type": "instructional",
+      "best_prompt_score": 1.0,
+      "total_responses": 50,
+      "saved_responses_file": "prompt_test_10x5_20251206_161940.json"
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 1.0,
+      "avg_response_time_ms": 282.71193999999997,
+      "best_performing_prompt": "instructional",
+      "total_detailed_responses": 50
+    },
+    "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+    "start_time": "2025-12-06T16:19:25.770128",
+    "end_time": "2025-12-06T16:19:40.001343"
+  },
+  {
+    "timer_id": "login_sales1_f97ccaca",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 511.301,
+    "timestamp": "2025-12-06T16:20:15.248548",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 504.37,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:20:14.737247",
+    "end_time": "2025-12-06T16:20:15.248548"
+  },
+  {
+    "timer_id": "agent_gap_analysis_0ef8f2f1",
+    "test_id": "agent_gap_analysis",
+    "test_type": "agent",
+    "test_name": "Agent gap_analysis",
+    "inputs": {
+      "function": "gap_analysis",
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "expected_response": "JSON response with results",
+      "required_fields": [
+        "results",
+        "query"
+      ],
+      "min_results": 1
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 320.994,
+    "timestamp": "2025-12-06T16:20:22.431283",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "query": "What are common gaps in digital transformation projects for banks?",
+        "query_timestamp": "2025-12-06T16:20:22",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T16:20:22",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "response_time_ms": 278.55600000000004,
+      "score_components": {
+        "http_status": 30,
+        "response_format": 20,
+        "has_results": 30,
+        "response_time": 20
+      },
+      "total_score": 100,
+      "max_score": 100
+    },
+    "details": {
+      "function": "gap_analysis",
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "response_keys": [
+        "query",
+        "query_timestamp",
+        "results",
+        "total_results",
+        "user_info"
+      ]
+    },
+    "justification": "Agent function responded successfully. Score based on: HTTP status (30/30), format (20/20), results (30/30), speed (20/20)",
+    "start_time": "2025-12-06T16:20:22.110289",
+    "end_time": "2025-12-06T16:20:22.431283"
+  },
+  {
+    "timer_id": "kb_coverage_941b0694",
+    "test_id": "kb_coverage",
+    "test_type": "kb",
+    "test_name": "KB Coverage Test",
+    "inputs": {
+      "category": "coverage",
+      "query_count": 3,
+      "queries": [
+        "What cloud solutions are available for banking?",
+        "How does AI help in fraud detection?",
+        "What are the best practices for digital transformation?"
+      ],
+      "expected_response": "JSON with relevant results",
+      "min_relevance_score": 0.5
+    },
+    "status": "passed",
+    "score": 0.76,
+    "duration_ms": 867.643,
+    "timestamp": "2025-12-06T16:20:31.518433",
+    "outputs": {
+      "summary": {
+        "total_queries": 3,
+        "successful_responses": 3,
+        "total_results": 3,
+        "avg_relevance": 0.10000000000000002,
+        "response_times": [
+          278.755,
+          266.916,
+          270.423
+        ]
+      },
+      "detailed_results": [
+        {
+          "query": "What cloud solutions are available for banking?",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 278.755,
+          "success": true
+        },
+        {
+          "query": "How does AI help in fraud detection?",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 266.916,
+          "success": true
+        },
+        {
+          "query": "What are the best practices for digital transformation?",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 270.423,
+          "success": true
+        }
+      ],
+      "score_components": {
+        "success_rate": 40.0,
+        "result_quality": 6.0,
+        "response_time": 20,
+        "consistency": 10
+      },
+      "total_score": 76.0,
+      "max_score": 100
+    },
+    "details": {
+      "category": "coverage",
+      "success_rate": 1.0,
+      "avg_response_time_ms": 272.03133333333335,
+      "total_results": 3
+    },
+    "justification": "KB coverage test passed with 100.0% success rate, 3 total results, avg response time 272ms",
+    "start_time": "2025-12-06T16:20:30.650790",
+    "end_time": "2025-12-06T16:20:31.518433"
+  },
+  {
+    "timer_id": "kb_freshness_1a9e4edd",
+    "test_id": "kb_freshness",
+    "test_type": "kb",
+    "test_name": "KB Freshness Test",
+    "inputs": {
+      "category": "freshness",
+      "query_count": 3,
+      "queries": [
+        "Latest trends in cloud computing 2024",
+        "Recent advances in AI for cybersecurity",
+        "New regulations for data privacy"
+      ],
+      "expected_response": "JSON with relevant results",
+      "min_relevance_score": 0.5
+    },
+    "status": "passed",
+    "score": 0.76,
+    "duration_ms": 889.389,
+    "timestamp": "2025-12-06T16:20:32.451059",
+    "outputs": {
+      "summary": {
+        "total_queries": 3,
+        "successful_responses": 3,
+        "total_results": 3,
+        "avg_relevance": 0.10000000000000002,
+        "response_times": [
+          282.134,
+          276.873,
+          284.66
+        ]
+      },
+      "detailed_results": [
+        {
+          "query": "Latest trends in cloud computing 2024",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 282.134,
+          "success": true
+        },
+        {
+          "query": "Recent advances in AI for cybersecurity",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 276.873,
+          "success": true
+        },
+        {
+          "query": "New regulations for data privacy",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 284.66,
+          "success": true
+        }
+      ],
+      "score_components": {
+        "success_rate": 40.0,
+        "result_quality": 6.0,
+        "response_time": 20,
+        "consistency": 10
+      },
+      "total_score": 76.0,
+      "max_score": 100
+    },
+    "details": {
+      "category": "freshness",
+      "success_rate": 1.0,
+      "avg_response_time_ms": 281.2223333333333,
+      "total_results": 3
+    },
+    "justification": "KB freshness test passed with 100.0% success rate, 3 total results, avg response time 281ms",
+    "start_time": "2025-12-06T16:20:31.561670",
+    "end_time": "2025-12-06T16:20:32.451059"
+  },
+  {
+    "timer_id": "kb_consistency_b2b2f174",
+    "test_id": "kb_consistency",
+    "test_type": "kb",
+    "test_name": "KB Consistency Test",
+    "inputs": {
+      "category": "consistency",
+      "query_count": 3,
+      "queries": [
+        "What is the difference between public and private cloud?",
+        "Compare machine learning vs deep learning",
+        "Benefits of microservices architecture"
+      ],
+      "expected_response": "JSON with relevant results",
+      "min_relevance_score": 0.5
+    },
+    "status": "passed",
+    "score": 0.76,
+    "duration_ms": 881.323,
+    "timestamp": "2025-12-06T16:20:33.359902",
+    "outputs": {
+      "summary": {
+        "total_queries": 3,
+        "successful_responses": 3,
+        "total_results": 3,
+        "avg_relevance": 0.10000000000000002,
+        "response_times": [
+          278.911,
+          283.941,
+          274.48
+        ]
+      },
+      "detailed_results": [
+        {
+          "query": "What is the difference between public and private cloud?",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 278.911,
+          "success": true
+        },
+        {
+          "query": "Compare machine learning vs deep learning",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 283.941,
+          "success": true
+        },
+        {
+          "query": "Benefits of microservices architecture",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 274.48,
+          "success": true
+        }
+      ],
+      "score_components": {
+        "success_rate": 40.0,
+        "result_quality": 6.0,
+        "response_time": 20,
+        "consistency": 10
+      },
+      "total_score": 76.0,
+      "max_score": 100
+    },
+    "details": {
+      "category": "consistency",
+      "success_rate": 1.0,
+      "avg_response_time_ms": 279.11066666666665,
+      "total_results": 3
+    },
+    "justification": "KB consistency test passed with 100.0% success rate, 3 total results, avg response time 279ms",
+    "start_time": "2025-12-06T16:20:32.478579",
+    "end_time": "2025-12-06T16:20:33.359902"
+  },
+  {
+    "timer_id": "kb_relevance_2e0cd0d7",
+    "test_id": "kb_relevance",
+    "test_type": "kb",
+    "test_name": "KB Relevance Test",
+    "inputs": {
+      "category": "relevance",
+      "query_count": 3,
+      "queries": [
+        "Sales strategies for cloud migration",
+        "How to pitch AI solutions to banks",
+        "ROI calculation for digital transformation"
+      ],
+      "expected_response": "JSON with relevant results",
+      "min_relevance_score": 0.5
+    },
+    "status": "passed",
+    "score": 0.76,
+    "duration_ms": 884.864,
+    "timestamp": "2025-12-06T16:20:34.284755",
+    "outputs": {
+      "summary": {
+        "total_queries": 3,
+        "successful_responses": 3,
+        "total_results": 3,
+        "avg_relevance": 0.10000000000000002,
+        "response_times": [
+          272.401,
+          290.301,
+          282.823
+        ]
+      },
+      "detailed_results": [
+        {
+          "query": "Sales strategies for cloud migration",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 272.401,
+          "success": true
+        },
+        {
+          "query": "How to pitch AI solutions to banks",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 290.301,
+          "success": true
+        },
+        {
+          "query": "ROI calculation for digital transformation",
+          "status_code": 200,
+          "results_count": 1,
+          "response_time_ms": 282.823,
+          "success": true
+        }
+      ],
+      "score_components": {
+        "success_rate": 40.0,
+        "result_quality": 6.0,
+        "response_time": 20,
+        "consistency": 10
+      },
+      "total_score": 76.0,
+      "max_score": 100
+    },
+    "details": {
+      "category": "relevance",
+      "success_rate": 1.0,
+      "avg_response_time_ms": 281.84166666666664,
+      "total_results": 3
+    },
+    "justification": "KB relevance test passed with 100.0% success rate, 3 total results, avg response time 282ms",
+    "start_time": "2025-12-06T16:20:33.399891",
+    "end_time": "2025-12-06T16:20:34.284755"
+  },
+  {
+    "timer_id": "login_sales1_940fc3a3",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 636.394,
+    "timestamp": "2025-12-06T16:21:11.064205",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 624.955,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T16:21:10.427811",
+    "end_time": "2025-12-06T16:21:11.064205"
+  }
+]

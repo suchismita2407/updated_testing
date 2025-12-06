@@ -1,0 +1,37 @@
+{
+  "timer_id": "login_sales1_f97ccaca",
+  "test_id": "login_sales1",
+  "test_type": "login",
+  "test_name": "Valid credentials",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": true
+  },
+  "status": "passed",
+  "score": 1.0,
+  "duration_ms": 511.301,
+  "timestamp": "2025-12-06T16:20:15.248548",
+  "outputs": {
+    "status_code": 200,
+    "response_data": {
+      "message": "Login successful",
+      "user": {
+        "id": 1,
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    "session_established": true,
+    "response_time_ms": 504.37,
+    "actual_success": true
+  },
+  "details": {
+    "expected_success": true,
+    "actual_success": true,
+    "match": true
+  },
+  "justification": "Login succeeded as expected",
+  "start_time": "2025-12-06T16:20:14.737247",
+  "end_time": "2025-12-06T16:20:15.248548"
+}

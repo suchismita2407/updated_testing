@@ -1,0 +1,17 @@
+{
+  "timer_id": "kb_freshness_1a9e4edd",
+  "test_type": "kb",
+  "test_name": "KB Freshness Test",
+  "inputs": {
+    "category": "freshness",
+    "query_count": 3,
+    "queries": [
+      "Latest trends in cloud computing 2024",
+      "Recent advances in AI for cybersecurity",
+      "New regulations for data privacy"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "timestamp": "2025-12-06T16:20:31.561670"
+}

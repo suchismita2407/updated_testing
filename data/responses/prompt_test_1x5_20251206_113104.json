@@ -1,0 +1,188 @@
+{
+  "test_name": "prompt_test_1x5",
+  "timestamp": "2025-12-06T11:31:04.332828",
+  "total_responses": 5,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Technology",
+        "type": "IoT Deployment",
+        "description": "Technology company seeking iot deployment solutions",
+        "requirements": [
+          "Mobile access",
+          "Cost optimization"
+        ],
+        "budget_range": "$348K-$1719K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Technology company seeking iot deployment solutions\nIndustry: Technology\nRequirements: ['Mobile access', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 271.382,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Technology company seeking iot deployment solutions\nIndustry: Technology\nRequirements: ['Mobile access', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Mobile App Development",
+        "description": "Manufacturing company seeking mobile app development solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "Scalable architecture",
+          "High security compliance"
+        ],
+        "budget_range": "$114K-$1914K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking mobile app development solutions\nIndustry: Manufacturing\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'Scalable architecture', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 283.853,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking mobile app development solutions\nIndustry: Manufacturing\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'Scalable architecture', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "24/7 support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$430K-$1842K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['24/7 support', 'Scalable architecture']",
+      "status_code": 200,
+      "response_time_ms": 260.327,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['24/7 support', 'Scalable architecture']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "Scalable architecture",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$111K-$720K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'Scalable architecture', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 260.112,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'Scalable architecture', 'Multi-cloud support', 'High security compliance']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$492K-$1721K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['24/7 support', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 276.06399999999996,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['24/7 support', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

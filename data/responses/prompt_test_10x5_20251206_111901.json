@@ -1,0 +1,1797 @@
+{
+  "test_name": "prompt_test_10x5",
+  "timestamp": "2025-12-06T11:19:01.523545",
+  "total_responses": 50,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 261.172,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 269.28000000000003,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 280.84999999999997,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 266.015,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 270.312,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 280.18399999999997,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 257.733,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 275.473,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 269.382,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 263.849,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 267.639,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 280.067,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 273.228,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 284.95500000000004,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.74100000000004,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 248.65300000000002,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 280.334,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 277.957,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 288.30699999999996,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 267.226,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 266.65,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 294.002,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 274.155,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 281.52,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.45799999999997,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 260.666,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 250.98100000000002,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 283.247,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 283.989,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 283.197,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 265.505,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 268.766,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 286.339,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 283.19,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 273.98,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 271.504,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 293.854,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 264.551,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 268.845,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 287.33799999999997,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 266.876,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 254.59599999999998,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 281.253,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 280.561,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 277.34700000000004,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$263K-$957K",
+        "timeline": "3 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 273.508,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'Cost optimization', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Government",
+        "type": "AI Implementation",
+        "description": "Government company seeking ai implementation solutions",
+        "requirements": [
+          "High security compliance",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$237K-$1946K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 265.573,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking ai implementation solutions\nIndustry: Government\nRequirements: ['High security compliance', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Process Automation",
+        "description": "Healthcare company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "Mobile access",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$264K-$1573K",
+        "timeline": "4 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 279.528,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking process automation solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Mobile access', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "High security compliance",
+          "Scalable architecture",
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$481K-$612K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 253.67600000000002,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['High security compliance', 'Scalable architecture', '24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Cybersecurity Enhancement",
+        "description": "Healthcare company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "24/7 support",
+          "Cost optimization"
+        ],
+        "budget_range": "$392K-$1885K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 280.5,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cybersecurity enhancement solutions\nIndustry: Healthcare\nRequirements: ['24/7 support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

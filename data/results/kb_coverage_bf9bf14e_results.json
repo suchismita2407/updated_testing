@@ -1,0 +1,74 @@
+{
+  "timer_id": "kb_coverage_bf9bf14e",
+  "test_id": "kb_coverage",
+  "test_type": "kb",
+  "test_name": "KB Coverage Test",
+  "inputs": {
+    "category": "coverage",
+    "query_count": 3,
+    "queries": [
+      "What cloud solutions are available for banking?",
+      "How does AI help in fraud detection?",
+      "What are the best practices for digital transformation?"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "status": "passed",
+  "score": 0.76,
+  "duration_ms": 870.829,
+  "timestamp": "2025-12-06T13:00:33.018655",
+  "outputs": {
+    "summary": {
+      "total_queries": 3,
+      "successful_responses": 3,
+      "total_results": 3,
+      "avg_relevance": 0.10000000000000002,
+      "response_times": [
+        274.308,
+        276.139,
+        276.459
+      ]
+    },
+    "detailed_results": [
+      {
+        "query": "What cloud solutions are available for banking?",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 274.308,
+        "success": true
+      },
+      {
+        "query": "How does AI help in fraud detection?",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 276.139,
+        "success": true
+      },
+      {
+        "query": "What are the best practices for digital transformation?",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 276.459,
+        "success": true
+      }
+    ],
+    "score_components": {
+      "success_rate": 40.0,
+      "result_quality": 6.0,
+      "response_time": 20,
+      "consistency": 10
+    },
+    "total_score": 76.0,
+    "max_score": 100
+  },
+  "details": {
+    "category": "coverage",
+    "success_rate": 1.0,
+    "avg_response_time_ms": 275.63533333333334,
+    "total_results": 3
+  },
+  "justification": "KB coverage test passed with 100.0% success rate, 3 total results, avg response time 276ms",
+  "start_time": "2025-12-06T13:00:32.147826",
+  "end_time": "2025-12-06T13:00:33.018655"
+}

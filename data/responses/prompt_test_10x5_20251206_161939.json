@@ -1,0 +1,2626 @@
+{
+  "test_name": "prompt_test_10x5",
+  "timestamp": "2025-12-06T16:19:39.969560",
+  "total_responses": 50,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 269.306,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:26",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.89,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T16:19:26",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 276.217,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:26",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T16:19:26",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 283.726,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:26",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.96,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T16:19:26",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 283.871,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:26",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T16:19:26",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 269.77,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:27",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T16:19:27",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 291.29699999999997,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:27",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T16:19:27",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 287.906,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:27",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "score": 0.92,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T16:19:27",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 275.511,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:28",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.92,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T16:19:28",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 287.828,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:28",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:28",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 281.786,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:28",
+        "results": [
+          {
+            "category": "Retail/Manufacturing",
+            "content": "IoT and AI-driven supply chain solution that reduces inventory costs by 30% and improves delivery accuracy by 40% for retail and manufacturing clients.",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "IoT",
+              "Supply Chain",
+              "Retail",
+              "Manufacturing"
+            ],
+            "timestamp": "2025-12-06T16:19:28",
+            "title": "Supply Chain Optimization",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 284.27799999999996,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:28",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T16:19:28",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 279.764,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:29",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T16:19:29",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 278.18100000000004,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:29",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "relevance_note": "Highly relevant to your healthcare query",
+            "score": 0.96,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T16:19:29",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 289.087,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:29",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.93,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T16:19:29",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 276.06399999999996,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:30",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.98,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T16:19:30",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 287.04200000000003,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:30",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:30",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 280.47299999999996,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:30",
+        "results": [
+          {
+            "category": "Sustainability",
+            "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "ESG",
+              "Sustainability",
+              "Analytics",
+              "Reporting"
+            ],
+            "timestamp": "2025-12-06T16:19:30",
+            "title": "Sustainability Analytics",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 273.127,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:30",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.83,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T16:19:30",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 285.534,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:31",
+        "results": [
+          {
+            "category": "Retail",
+            "content": "Deployed IoT-based inventory management for a retail chain with 500+ stores, reducing stockouts by 75% and improving inventory turnover by 40%.",
+            "score": 0.91,
+            "searched_by": "sales1",
+            "tags": [
+              "Retail",
+              "Inventory",
+              "IoT",
+              "Optimization"
+            ],
+            "timestamp": "2025-12-06T16:19:31",
+            "title": "Retail Chain Inventory Optimization",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 273.615,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:31",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T16:19:31",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 287.065,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:31",
+        "results": [
+          {
+            "category": "Retail/Manufacturing",
+            "content": "IoT and AI-driven supply chain solution that reduces inventory costs by 30% and improves delivery accuracy by 40% for retail and manufacturing clients.",
+            "score": 0.84,
+            "searched_by": "sales1",
+            "tags": [
+              "IoT",
+              "Supply Chain",
+              "Retail",
+              "Manufacturing"
+            ],
+            "timestamp": "2025-12-06T16:19:31",
+            "title": "Supply Chain Optimization",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 281.01,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:31",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T16:19:31",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 283.16400000000004,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:32",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.95,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T16:19:32",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 284.994,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:32",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.85,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:32",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 288.204,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:32",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T16:19:32",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 276.62199999999996,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:33",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "score": 0.93,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T16:19:33",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 290.68100000000004,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:33",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.85,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:33",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 282.955,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:33",
+        "results": [
+          {
+            "category": "Data/Analytics",
+            "content": "Modernize legacy data systems to cloud-native architectures with automated migration tools, reducing TCO by 40% and improving performance by 300%.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.93,
+            "searched_by": "sales1",
+            "tags": [
+              "Data",
+              "Modernization",
+              "Cloud",
+              "Migration"
+            ],
+            "timestamp": "2025-12-06T16:19:33",
+            "title": "Data Modernization Suite",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 266.72200000000004,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:33",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.84,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T16:19:33",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 291.966,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:34",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.85,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T16:19:34",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 291.932,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:34",
+        "results": [
+          {
+            "category": "AI/Analytics",
+            "content": "TCS AIOps provides AI-driven IT operations management with predictive analytics for 40% faster incident resolution and 30% reduction in IT costs.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "AI",
+              "IT Operations",
+              "Predictive Analytics"
+            ],
+            "timestamp": "2025-12-06T16:19:34",
+            "title": "TCS AIOps Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 275.021,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:34",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "AI-powered fraud detection system for financial institutions using machine learning to detect anomalies with 99.8% accuracy and reduce false positives by 60%.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud Detection",
+              "AI",
+              "Security"
+            ],
+            "timestamp": "2025-12-06T16:19:34",
+            "title": "Banking Fraud Detection Solution",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 289.704,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:35",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.8,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:35",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 283.63,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:35",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T16:19:35",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 283.198,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:35",
+        "results": [
+          {
+            "category": "BFSI",
+            "content": "Implemented AI fraud detection for a global bank, reducing fraudulent transactions by 92% and saving $45M annually. The solution processed 5M transactions daily with 99.9% accuracy.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "Banking",
+              "Fraud",
+              "AI",
+              "Success"
+            ],
+            "timestamp": "2025-12-06T16:19:35",
+            "title": "Global Bank Fraud Reduction",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 287.70099999999996,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:35",
+        "results": [
+          {
+            "category": "AI/Analytics",
+            "content": "TCS AIOps provides AI-driven IT operations management with predictive analytics for 40% faster incident resolution and 30% reduction in IT costs.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "AI",
+              "IT Operations",
+              "Predictive Analytics"
+            ],
+            "timestamp": "2025-12-06T16:19:35",
+            "title": "TCS AIOps Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 272.464,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:36",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "score": 0.87,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T16:19:36",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 285.171,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:36",
+        "results": [
+          {
+            "category": "AI/Automation",
+            "content": "Enterprise-grade AI platform for autonomous IT operations that automates routine tasks, predicts issues before they occur, and optimizes IT costs.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.99,
+            "searched_by": "sales1",
+            "tags": [
+              "ignio",
+              "Automation",
+              "AI",
+              "IT Operations"
+            ],
+            "timestamp": "2025-12-06T16:19:36",
+            "title": "TCS ignio\u2122 AIOps",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 287.89,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:36",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.84,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T16:19:36",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 293.362,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:37",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Digital transformation for a hospital network serving 2M patients annually, reducing patient wait times by 60% and administrative costs by 35%.",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Efficiency",
+              "Digital",
+              "Transformation"
+            ],
+            "timestamp": "2025-12-06T16:19:37",
+            "title": "Healthcare Provider Efficiency",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 285.67199999999997,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:37",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T16:19:37",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 279.51,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:37",
+        "results": [
+          {
+            "category": "Retail/Manufacturing",
+            "content": "IoT and AI-driven supply chain solution that reduces inventory costs by 30% and improves delivery accuracy by 40% for retail and manufacturing clients.",
+            "score": 0.86,
+            "searched_by": "sales1",
+            "tags": [
+              "IoT",
+              "Supply Chain",
+              "Retail",
+              "Manufacturing"
+            ],
+            "timestamp": "2025-12-06T16:19:37",
+            "title": "Supply Chain Optimization",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 291.617,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:37",
+        "results": [
+          {
+            "category": "Cloud",
+            "content": "End-to-end cloud migration services with proven methodologies for AWS, Azure, and GCP migrations. Reduces migration time by 50% with zero data loss guarantee.",
+            "relevance_note": "Highly relevant to your cloud query",
+            "score": 0.9,
+            "searched_by": "sales1",
+            "tags": [
+              "Cloud",
+              "Migration",
+              "AWS",
+              "Azure"
+            ],
+            "timestamp": "2025-12-06T16:19:37",
+            "title": "Cloud Migration Accelerator",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 282.30899999999997,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:38",
+        "results": [
+          {
+            "category": "Security",
+            "content": "Managed Detection and Response services providing 24/7 security monitoring, threat hunting, and incident response with SLA-backed guarantees.",
+            "score": 0.88,
+            "searched_by": "sales1",
+            "tags": [
+              "Cybersecurity",
+              "MDR",
+              "Security",
+              "Compliance"
+            ],
+            "timestamp": "2025-12-06T16:19:38",
+            "title": "Cybersecurity MDR Services",
+            "type": "service",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 300.628,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:38",
+        "results": [
+          {
+            "category": "AI/Analytics",
+            "content": "TCS AIOps provides AI-driven IT operations management with predictive analytics for 40% faster incident resolution and 30% reduction in IT costs.",
+            "relevance_note": "Highly relevant to your AI query",
+            "score": 0.96,
+            "searched_by": "sales1",
+            "tags": [
+              "AI",
+              "IT Operations",
+              "Predictive Analytics"
+            ],
+            "timestamp": "2025-12-06T16:19:38",
+            "title": "TCS AIOps Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Banking",
+        "type": "Mobile App Development",
+        "description": "Banking company seeking mobile app development solutions",
+        "requirements": [
+          "Cost optimization",
+          "Multi-cloud support",
+          "Real-time analytics"
+        ],
+        "budget_range": "$442K-$1252K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 283.21299999999997,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking mobile app development solutions\nIndustry: Banking\nRequirements: ['Cost optimization', 'Multi-cloud support', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:38",
+        "results": [
+          {
+            "category": "Healthcare",
+            "content": "Compliance-ready healthcare analytics platform that helps hospitals reduce patient readmission rates by 25% and improve operational efficiency by 35%.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "Healthcare",
+              "Analytics",
+              "Compliance",
+              "Hospital"
+            ],
+            "timestamp": "2025-12-06T16:19:38",
+            "title": "Healthcare Analytics Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Education",
+        "type": "AI Implementation",
+        "description": "Education company seeking ai implementation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "24/7 support"
+        ],
+        "budget_range": "$335K-$1124K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 267.28200000000004,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Education company seeking ai implementation solutions\nIndustry: Education\nRequirements: ['Scalable architecture', '24/7 support']",
+        "query_timestamp": "2025-12-06T16:19:39",
+        "results": [
+          {
+            "category": "Digital Workplace",
+            "content": "Modern workplace transformation with AI-powered collaboration tools, virtual desktop infrastructure, and endpoint security management.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "Digital",
+              "Workplace",
+              "Collaboration",
+              "VDI"
+            ],
+            "timestamp": "2025-12-06T16:19:39",
+            "title": "Digital Workplace Solutions",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Healthcare",
+        "type": "Cloud Migration",
+        "description": "Healthcare company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "High security compliance"
+        ],
+        "budget_range": "$488K-$1604K",
+        "timeline": "7 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+      "status_code": 200,
+      "response_time_ms": 289.392,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking cloud migration solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', 'High security compliance']",
+        "query_timestamp": "2025-12-06T16:19:39",
+        "results": [
+          {
+            "category": "IoT/Edge",
+            "content": "Edge computing solution for real-time data processing at IoT endpoints, reducing latency by 80% and bandwidth costs by 60%.",
+            "score": 0.87,
+            "searched_by": "sales1",
+            "tags": [
+              "Edge Computing",
+              "IoT",
+              "Real-time",
+              "5G"
+            ],
+            "timestamp": "2025-12-06T16:19:39",
+            "title": "Edge Computing Framework",
+            "type": "solution",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Cloud Migration",
+        "description": "Banking company seeking cloud migration solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Real-time analytics",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$398K-$817K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 200,
+      "response_time_ms": 277.14,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking cloud migration solutions\nIndustry: Banking\nRequirements: ['AI/ML capabilities', 'Real-time analytics', 'Scalable architecture', 'Multi-cloud support']",
+        "query_timestamp": "2025-12-06T16:19:39",
+        "results": [
+          {
+            "category": "Manufacturing",
+            "content": "Implemented IoT sensors and AI analytics for an automotive manufacturer, reducing unplanned downtime by 45% and maintenance costs by 30%.",
+            "score": 0.94,
+            "searched_by": "sales1",
+            "tags": [
+              "Manufacturing",
+              "IoT",
+              "Predictive Maintenance",
+              "Automotive"
+            ],
+            "timestamp": "2025-12-06T16:19:39",
+            "title": "Manufacturing Predictive Maintenance",
+            "type": "success_story",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Mobile access",
+          "Multi-cloud support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$295K-$1455K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 280.995,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Mobile access', 'Multi-cloud support', 'AI/ML capabilities', 'Real-time analytics']",
+        "query_timestamp": "2025-12-06T16:19:39",
+        "results": [
+          {
+            "category": "Digital",
+            "content": "Omnichannel customer engagement platform that increases customer satisfaction scores by 45% and reduces support costs by 35%.",
+            "score": 0.82,
+            "searched_by": "sales1",
+            "tags": [
+              "CX",
+              "Customer Experience",
+              "Digital",
+              "Engagement"
+            ],
+            "timestamp": "2025-12-06T16:19:39",
+            "title": "Customer Experience Platform",
+            "type": "offering",
+            "user_role": "sales"
+          }
+        ],
+        "total_results": 1,
+        "user_info": {
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

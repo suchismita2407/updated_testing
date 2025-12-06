@@ -1,0 +1,11 @@
+{
+  "timer_id": "login__b2749748",
+  "test_type": "login",
+  "test_name": "Empty credentials",
+  "inputs": {
+    "username": "",
+    "password": "",
+    "expected_success": false
+  },
+  "timestamp": "2025-12-06T11:27:32.088556"
+}

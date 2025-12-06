@@ -1,0 +1,541 @@
+{
+  "timer_id": "prompt_test_10x5_f8ea3487",
+  "test_id": "prompt_test_10x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (10 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "passed",
+  "score": 0.8,
+  "duration_ms": 14240.921,
+  "timestamp": "2025-12-06T16:21:46.773963",
+  "outputs": {
+    "summary": {
+      "total_tests": 50,
+      "successful_tests": 50,
+      "total_responses": 50,
+      "avg_response_length": 843.94,
+      "avg_response_time": 283.1438,
+      "prompt_performance": {
+        "instructional": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "role-based": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "concise": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "detailed": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        },
+        "conversational": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 1.0,
+          "success_rate": 1.0
+        }
+      },
+      "category_performance": {
+        "Government": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Technology": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Retail": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Insurance": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        },
+        "Banking": {
+          "count": 10,
+          "success": 10,
+          "avg_score": 0
+        }
+      },
+      "detailed_responses": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 293.168,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 288.97299999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 283.326,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 286.049,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 275.796,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 288.738,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.47499999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 288.323,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 280.854,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.66200000000003,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 275.58,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 274.78200000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 275.663,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 258.972,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 289.782,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 291.265,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 283.13899999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 277.83299999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 289.49,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.769,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 289.254,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 284.06399999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 271.363,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 291.178,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.354,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+          "prompt_type": "instructional",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 275.033,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 290.728,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 291.37800000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 275.45399999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 290.668,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+          "prompt_type": "role-based",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 281.917,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.736,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 265.395,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 290.912,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 283.493,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:",
+          "prompt_type": "concise",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 283.142,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 293.79499999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 289.576,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 282.647,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.758,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+          "prompt_type": "detailed",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 290.159,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.60200000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 289.795,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 275.33000000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 294.04400000000004,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+          "prompt_type": "conversational",
+          "responses": [
+            {
+              "test_case": "Government company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 294.596,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 267.581,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 293.40500000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 289.00199999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.192,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        }
+      ]
+    },
+    "score_components": {
+      "success_rate": 40.0,
+      "response_quality": 10.0,
+      "response_time": 20,
+      "coverage": 10
+    },
+    "total_score": 80.0,
+    "max_score": 100,
+    "best_prompt_type": "instructional",
+    "best_prompt_score": 1.0,
+    "total_responses": 50,
+    "saved_responses_file": "prompt_test_10x5_20251206_162146.json"
+  },
+  "details": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "success_rate": 1.0,
+    "avg_response_time_ms": 283.1438,
+    "best_performing_prompt": "instructional",
+    "total_detailed_responses": 50
+  },
+  "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+  "start_time": "2025-12-06T16:21:32.533042",
+  "end_time": "2025-12-06T16:21:46.773963"
+}

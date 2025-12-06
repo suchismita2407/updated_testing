@@ -1,0 +1,73 @@
+{
+  "timer_id": "agent_gap_analysis_0ef8f2f1",
+  "test_id": "agent_gap_analysis",
+  "test_type": "agent",
+  "test_name": "Agent gap_analysis",
+  "inputs": {
+    "function": "gap_analysis",
+    "query": "What are common gaps in digital transformation projects for banks?",
+    "expected_response": "JSON response with results",
+    "required_fields": [
+      "results",
+      "query"
+    ],
+    "min_results": 1
+  },
+  "status": "passed",
+  "score": 1.0,
+  "duration_ms": 320.994,
+  "timestamp": "2025-12-06T16:20:22.431283",
+  "outputs": {
+    "status_code": 200,
+    "response_data": {
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "query_timestamp": "2025-12-06T16:20:22",
+      "results": [
+        {
+          "category": "Sustainability",
+          "content": "ESG reporting and carbon footprint tracking platform that helps enterprises reduce energy consumption by 25% and achieve sustainability goals faster.",
+          "score": 0.82,
+          "searched_by": "sales1",
+          "tags": [
+            "ESG",
+            "Sustainability",
+            "Analytics",
+            "Reporting"
+          ],
+          "timestamp": "2025-12-06T16:20:22",
+          "title": "Sustainability Analytics",
+          "type": "solution",
+          "user_role": "sales"
+        }
+      ],
+      "total_results": 1,
+      "user_info": {
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    "response_time_ms": 278.55600000000004,
+    "score_components": {
+      "http_status": 30,
+      "response_format": 20,
+      "has_results": 30,
+      "response_time": 20
+    },
+    "total_score": 100,
+    "max_score": 100
+  },
+  "details": {
+    "function": "gap_analysis",
+    "query": "What are common gaps in digital transformation projects for banks?",
+    "response_keys": [
+      "query",
+      "query_timestamp",
+      "results",
+      "total_results",
+      "user_info"
+    ]
+  },
+  "justification": "Agent function responded successfully. Score based on: HTTP status (30/30), format (20/20), results (30/30), speed (20/20)",
+  "start_time": "2025-12-06T16:20:22.110289",
+  "end_time": "2025-12-06T16:20:22.431283"
+}

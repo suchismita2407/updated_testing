@@ -1,0 +1,1096 @@
+[
+  {
+    "timer_id": "prompt_test_10x5_c5d518fd",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "failed",
+    "score": 0.2,
+    "duration_ms": 14891.635,
+    "timestamp": "2025-12-06T13:48:24.859480",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 0,
+        "total_responses": 0,
+        "avg_response_length": 0,
+        "avg_response_time": 275.53428,
+        "prompt_performance": {},
+        "category_performance": {},
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 318.087,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 271.14,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 265.05,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 265.618,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 274.197,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 285.75,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 266.155,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 280.56199999999995,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 281.634,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 272.685,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 276.272,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 279.194,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 267.641,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 281.333,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 274.169,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 288.901,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 256.627,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 284.264,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 289.293,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 268.959,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 275.04,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 268.534,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 279.99800000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 284.797,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 261.26899999999995,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 273.46799999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 292.116,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 276.54499999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 264.606,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 283.862,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 263.78200000000004,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 284.385,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 284.908,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 266.431,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 279.72999999999996,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 286.914,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 265.128,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 283.663,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 265.899,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 270.43,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 266.43,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 271.58700000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 263.0,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 262.46500000000003,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 287.038,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 267.474,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 276.20099999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Technology company seeking cloud migration solutions",
+                "status_code": 401,
+                "response_time_ms": 274.39799999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 282.90900000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Education company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 266.17600000000004,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 0.0,
+        "response_quality": 0.0,
+        "response_time": 20,
+        "coverage": 0
+      },
+      "total_score": 20.0,
+      "max_score": 100,
+      "best_prompt_type": null,
+      "best_prompt_score": 0,
+      "total_responses": 50,
+      "saved_responses_file": "prompt_test_10x5_20251206_134824.json"
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 0.0,
+      "avg_response_time_ms": 275.53428,
+      "best_performing_prompt": null,
+      "total_detailed_responses": 50
+    },
+    "justification": "Prompt testing failed with only 0.0% success rate",
+    "start_time": "2025-12-06T13:48:09.967845",
+    "end_time": "2025-12-06T13:48:24.859480"
+  },
+  {
+    "timer_id": "login_sales1_a823a332",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 630.105,
+    "timestamp": "2025-12-06T13:48:30.876505",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 626.083,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T13:48:30.246400",
+    "end_time": "2025-12-06T13:48:30.876505"
+  },
+  {
+    "timer_id": "prompt_test_11x5_81a1a641",
+    "test_id": "prompt_test_11x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (11 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 11,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "passed",
+    "score": 0.76,
+    "duration_ms": 15346.861,
+    "timestamp": "2025-12-06T13:48:53.616474",
+    "outputs": {
+      "summary": {
+        "total_tests": 55,
+        "successful_tests": 55,
+        "total_responses": 55,
+        "avg_response_length": 842.6,
+        "avg_response_time": 277.9312727272727,
+        "prompt_performance": {
+          "instructional": {
+            "count": 15,
+            "success": 15,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "role-based": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "concise": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "detailed": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "conversational": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          }
+        },
+        "category_performance": {
+          "Insurance": {
+            "count": 33,
+            "success": 33,
+            "avg_score": 0
+          },
+          "Banking": {
+            "count": 11,
+            "success": 11,
+            "avg_score": 0
+          },
+          "Government": {
+            "count": 11,
+            "success": 11,
+            "avg_score": 0
+          }
+        },
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 280.64099999999996,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 272.382,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 282.806,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 278.52,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 305.622,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 265.426,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 296.311,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 281.77000000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 273.16200000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 294.26000000000005,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 279.281,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 275.435,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 274.512,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 271.13599999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 287.901,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 277.04200000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 285.824,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 279.41700000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 270.391,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 278.598,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 285.21999999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 271.774,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 281.81800000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 286.721,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 263.602,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 282.782,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 272.81300000000005,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 277.864,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 284.697,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 270.563,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 259.685,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 281.968,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 288.882,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 277.325,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 279.913,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 277.72799999999995,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 285.322,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 280.892,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 275.287,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 276.126,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 289.074,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 258.96000000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 276.13,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 261.962,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 265.375,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 279.97499999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 274.45399999999995,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 259.729,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 282.98699999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 265.70899999999995,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 11: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 285.337,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+                "status_code": 200,
+                "response_time_ms": 282.04200000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 282.933,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Government company seeking cloud migration solutions",
+                "status_code": 200,
+                "response_time_ms": 274.111,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Insurance company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 276.023,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 40.0,
+        "response_quality": 10.0,
+        "response_time": 20,
+        "coverage": 6
+      },
+      "total_score": 76.0,
+      "max_score": 100,
+      "best_prompt_type": "instructional",
+      "best_prompt_score": 1.0,
+      "total_responses": 55,
+      "saved_responses_file": "prompt_test_11x5_20251206_134853.json"
+    },
+    "details": {
+      "prompt_count": 11,
+      "test_case_count": 5,
+      "success_rate": 1.0,
+      "avg_response_time_ms": 277.9312727272727,
+      "best_performing_prompt": "instructional",
+      "total_detailed_responses": 55
+    },
+    "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+    "start_time": "2025-12-06T13:48:38.269613",
+    "end_time": "2025-12-06T13:48:53.616474"
+  }
+]

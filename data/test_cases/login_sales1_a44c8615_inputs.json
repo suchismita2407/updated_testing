@@ -1,0 +1,11 @@
+{
+  "timer_id": "login_sales1_a44c8615",
+  "test_type": "login",
+  "test_name": "Wrong password",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": false
+  },
+  "timestamp": "2025-12-06T11:27:30.491968"
+}

@@ -1,0 +1,17 @@
+{
+  "timer_id": "e2e_healthcare_data_4aed9678",
+  "test_type": "e2e",
+  "test_name": "E2E Scenario: Healthcare Data",
+  "inputs": {
+    "scenario_name": "Healthcare Data",
+    "scenario_description": "Hospital network needs patient data analytics platform",
+    "steps": [
+      "Login with valid credentials",
+      "Analyze opportunity with agent",
+      "Search knowledge base",
+      "Generate recommendations",
+      "Create proposal outline"
+    ]
+  },
+  "timestamp": "2025-12-06T14:06:41.177039"
+}

@@ -1,0 +1,74 @@
+{
+  "timer_id": "kb_consistency_17dcd32e",
+  "test_id": "kb_consistency",
+  "test_type": "kb",
+  "test_name": "KB Consistency Test",
+  "inputs": {
+    "category": "consistency",
+    "query_count": 3,
+    "queries": [
+      "What is the difference between public and private cloud?",
+      "Compare machine learning vs deep learning",
+      "Benefits of microservices architecture"
+    ],
+    "expected_response": "JSON with relevant results",
+    "min_relevance_score": 0.5
+  },
+  "status": "passed",
+  "score": 0.76,
+  "duration_ms": 877.473,
+  "timestamp": "2025-12-06T13:49:51.382502",
+  "outputs": {
+    "summary": {
+      "total_queries": 3,
+      "successful_responses": 3,
+      "total_results": 3,
+      "avg_relevance": 0.10000000000000002,
+      "response_times": [
+        270.262,
+        283.40500000000003,
+        277.652
+      ]
+    },
+    "detailed_results": [
+      {
+        "query": "What is the difference between public and private cloud?",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 270.262,
+        "success": true
+      },
+      {
+        "query": "Compare machine learning vs deep learning",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 283.40500000000003,
+        "success": true
+      },
+      {
+        "query": "Benefits of microservices architecture",
+        "status_code": 200,
+        "results_count": 1,
+        "response_time_ms": 277.652,
+        "success": true
+      }
+    ],
+    "score_components": {
+      "success_rate": 40.0,
+      "result_quality": 6.0,
+      "response_time": 20,
+      "consistency": 10
+    },
+    "total_score": 76.0,
+    "max_score": 100
+  },
+  "details": {
+    "category": "consistency",
+    "success_rate": 1.0,
+    "avg_response_time_ms": 277.10633333333334,
+    "total_results": 3
+  },
+  "justification": "KB consistency test passed with 100.0% success rate, 3 total results, avg response time 277ms",
+  "start_time": "2025-12-06T13:49:50.505029",
+  "end_time": "2025-12-06T13:49:51.382502"
+}

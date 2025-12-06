@@ -1,0 +1,15 @@
+{
+  "timer_id": "prompt_style_analysis_869b6a11",
+  "test_type": "prompt",
+  "test_name": "Prompt Style Analysis",
+  "inputs": {
+    "styles": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ]
+  },
+  "timestamp": "2025-12-06T11:32:08.236279"
+}

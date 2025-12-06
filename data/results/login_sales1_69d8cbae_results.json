@@ -1,0 +1,37 @@
+{
+  "timer_id": "login_sales1_69d8cbae",
+  "test_id": "login_sales1",
+  "test_type": "login",
+  "test_name": "Quick Login Test",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": true
+  },
+  "status": "passed",
+  "score": 1.0,
+  "duration_ms": 644.278,
+  "timestamp": "2025-12-06T14:05:21.393540",
+  "outputs": {
+    "status_code": 200,
+    "response_data": {
+      "message": "Login successful",
+      "user": {
+        "id": 1,
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    "session_established": true,
+    "response_time_ms": 633.707,
+    "actual_success": true
+  },
+  "details": {
+    "expected_success": true,
+    "actual_success": true,
+    "match": true
+  },
+  "justification": "Login succeeded as expected",
+  "start_time": "2025-12-06T14:05:20.749262",
+  "end_time": "2025-12-06T14:05:21.393540"
+}
