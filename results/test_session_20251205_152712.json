@@ -1,0 +1,134 @@
+[
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Quick Login Test",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1006.232,
+    "timestamp": "2025-12-05T15:22:42.149653",
+    "details": {
+      "username": "sales1",
+      "is_valid": true,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2003.976,
+    "timestamp": "2025-12-05T15:22:44.165192",
+    "details": {
+      "function": "matching",
+      "test_type": "agent"
+    }
+  },
+  {
+    "test_id": "e2e_Quick_Banking",
+    "test_type": "e2e",
+    "test_name": "E2E Quick Banking",
+    "status": "passed",
+    "score": 0.8,
+    "duration_ms": 4011.501,
+    "timestamp": "2025-12-05T15:22:48.179574",
+    "details": {
+      "name": "Quick Banking",
+      "scenario": "Bank needs basic digital transformation"
+    }
+  },
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1007.767,
+    "timestamp": "2025-12-05T15:24:35.060738",
+    "details": {
+      "username": "sales1",
+      "is_valid": true,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "login_invalid_user",
+    "test_type": "login",
+    "test_name": "Invalid username",
+    "status": "failed",
+    "score": 0.0,
+    "duration_ms": 1000.585,
+    "timestamp": "2025-12-05T15:24:40.709813",
+    "details": {
+      "username": "invalid_user",
+      "is_valid": false,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "prompt_11_5",
+    "test_type": "prompt",
+    "test_name": "Prompt Test (11 prompts)",
+    "status": "passed",
+    "score": 0.75,
+    "duration_ms": 3008.951,
+    "timestamp": "2025-12-05T15:25:09.173097",
+    "details": {
+      "prompt_count": 11,
+      "test_case_count": 5
+    }
+  },
+  {
+    "test_id": "agent_gap_analysis",
+    "test_type": "agent",
+    "test_name": "Agent gap_analysis",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2015.1270000000002,
+    "timestamp": "2025-12-05T15:26:41.917346",
+    "details": {
+      "function": "gap_analysis",
+      "test_type": "agent"
+    }
+  },
+  {
+    "test_id": "agent_research",
+    "test_type": "agent",
+    "test_name": "Agent research",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2016.9139999999998,
+    "timestamp": "2025-12-05T15:26:47.604831",
+    "details": {
+      "function": "research",
+      "test_type": "agent"
+    }
+  },
+  {
+    "test_id": "agent_reporting",
+    "test_type": "agent",
+    "test_name": "Agent reporting",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2001.35,
+    "timestamp": "2025-12-05T15:26:54.318310",
+    "details": {
+      "function": "reporting",
+      "test_type": "agent"
+    }
+  },
+  {
+    "test_id": "kb_coverage",
+    "test_type": "kb",
+    "test_name": "KB coverage",
+    "status": "passed",
+    "score": 0.9,
+    "duration_ms": 1500.1979999999999,
+    "timestamp": "2025-12-05T15:27:12.663512",
+    "details": {
+      "category": "coverage"
+    }
+  }
+]

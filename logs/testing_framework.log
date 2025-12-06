@@ -1,0 +1,120 @@
+2025-12-04 18:19:17,375 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-04 18:19:17,376 - api.server - INFO - API URL: http://localhost:8000
+2025-12-04 18:19:17,376 - api.server - INFO - Results directory: C:\Users\91700\Desktop\sales_eva_testing\test_results
+2025-12-04 18:19:44,089 - api.server - INFO - Starting background test test_20251204_181944_1842081320176 for http://localhost:8000
+2025-12-04 18:19:44,116 - src.tester - INFO - Sales EVA Tester initialized for API: http://localhost:8000
+2025-12-04 18:19:44,116 - src.tester - INFO - Starting comprehensive testing: ['prompt', 'agent', 'kb', 'e2e']
+2025-12-04 18:19:46,427 - src.api_client - WARNING - Health check failed: All connection attempts failed
+2025-12-04 18:19:46,427 - api.server - ERROR - Background test test_20251204_181944_1842081320176 failed: Cannot connect to Sales EVA API at http://localhost:8000
+2025-12-04 18:23:47,876 - api.server - INFO - Starting background test test_20251204_182347_1842081328672 for http://localhost:8000
+2025-12-04 18:23:47,903 - src.tester - INFO - Sales EVA Tester initialized for API: http://localhost:8000
+2025-12-04 18:23:47,903 - src.tester - INFO - Starting comprehensive testing: ['prompt']
+2025-12-04 18:23:50,190 - src.api_client - WARNING - Health check failed: All connection attempts failed
+2025-12-04 18:23:50,190 - api.server - ERROR - Background test test_20251204_182347_1842081328672 failed: Cannot connect to Sales EVA API at http://localhost:8000
+2025-12-04 22:38:03,252 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 10:58:44,109 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 10:58:44,111 - api.server - INFO - API URL: http://localhost:8000
+2025-12-05 10:58:44,111 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 10:59:17,397 - src.tester - INFO - Sales EVA Tester initialized for API: http://localhost:8000
+2025-12-05 10:59:17,397 - src.tester - INFO - Running quick test...
+2025-12-05 10:59:19,763 - src.api_client - WARNING - Health check failed: All connection attempts failed
+2025-12-05 10:59:22,072 - src.api_client - ERROR - Request failed: All connection attempts failed
+2025-12-05 10:59:22,074 - src.tester - ERROR - Quick test failed: Network error: All connection attempts failed
+2025-12-05 10:59:38,985 - api.server - INFO - Starting background test test_20251205_105938_1770685644992 for http://localhost:8000
+2025-12-05 10:59:40,061 - src.tester - INFO - Sales EVA Tester initialized for API: http://localhost:8000
+2025-12-05 10:59:40,063 - src.tester - INFO - Starting comprehensive testing: ['prompt']
+2025-12-05 10:59:42,354 - src.api_client - WARNING - Health check failed: All connection attempts failed
+2025-12-05 10:59:42,354 - api.server - ERROR - Background test test_20251205_105938_1770685644992 failed: Cannot connect to Sales EVA API at http://localhost:8000
+2025-12-05 11:53:55,784 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 11:53:58,252 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 11:53:58,253 - api.server - INFO - API URL: http://localhost:8000
+2025-12-05 11:53:58,253 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:02:04,758 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:02:06,848 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:02:06,849 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:02:06,849 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:02:41,871 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:02:43,852 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:02:43,853 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:02:43,853 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:04:16,835 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:04:18,769 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:04:18,778 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:04:18,778 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:10:57,266 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:10:58,263 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:10:58,263 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:10:58,265 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:11:50,826 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:11:51,840 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:11:51,840 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:11:51,841 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:12:01,880 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:12:02,650 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:12:02,650 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:12:02,650 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:12:15,242 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:12:16,116 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:12:16,117 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:12:16,117 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:17:54,853 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:17:55,954 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:17:55,954 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:17:55,955 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:18:31,200 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:18:32,173 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:18:32,173 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:18:32,186 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:19:34,401 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:19:36,457 - api.server - INFO - Sales EVA Testing Framework API starting up...
+2025-12-05 12:19:36,457 - api.server - INFO - API URL: http://localhost:5000
+2025-12-05 12:19:36,457 - api.server - INFO - Results directory: C:\Users\genAIINDSEZUSR27\Desktop\sales_eva_testing\test_results
+2025-12-05 12:19:42,418 - api.server - INFO - Sales EVA Testing Framework API shutting down...
+2025-12-05 12:32:32,154 - src.api_client - ERROR - DeepSeek API call failed: No module named 'langchain_openai'
+2025-12-05 12:33:13,408 - httpx - INFO - HTTP Request: POST https://genailab.tcs.in/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 12:33:18,175 - httpx - INFO - HTTP Request: POST https://genailab.tcs.in/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 12:33:24,168 - httpx - INFO - HTTP Request: POST https://genailab.tcs.in/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 12:43:51,247 - httpx - INFO - HTTP Request: GET http://localhost:5000/ "HTTP/1.1 200 OK"
+2025-12-05 12:43:51,586 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 200 OK"
+2025-12-05 12:43:51,586 - src.sales_eva_client - INFO - Logged in as sales1
+2025-12-05 12:43:51,879 - httpx - INFO - HTTP Request: POST http://localhost:5000/opportunities "HTTP/1.1 201 CREATED"
+2025-12-05 12:43:52,150 - httpx - INFO - HTTP Request: POST http://localhost:5000/api/rag/search "HTTP/1.1 200 OK"
+2025-12-05 12:43:52,423 - httpx - INFO - HTTP Request: GET http://localhost:5000/opportunities "HTTP/1.1 200 OK"
+2025-12-05 12:52:56,428 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:56,428 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:52:56,688 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:56,688 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:52:57,038 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:57,038 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:52:57,303 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:57,308 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:52:57,667 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:57,667 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:52:58,029 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 200 OK"
+2025-12-05 12:52:58,029 - src.sales_eva_client - INFO - Logged in as sales1
+2025-12-05 12:52:58,463 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:58,732 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:58,999 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:59,284 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 500 INTERNAL SERVER ERROR"
+2025-12-05 12:52:59,543 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:59,967 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:52:59,967 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:00,241 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:00,241 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:00,515 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:00,517 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:00,784 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:00,784 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:01,051 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:01,051 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:01,308 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:01,318 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:01,584 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:01,584 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:01,854 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:01,856 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:02,120 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:02,120 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 12:53:02,395 - httpx - INFO - HTTP Request: POST http://localhost:5000/login "HTTP/1.1 401 UNAUTHORIZED"
+2025-12-05 12:53:02,395 - src.sales_eva_client - ERROR - Login failed: 401
+2025-12-05 14:52:00,541 - httpx - INFO - HTTP Request: GET http://localhost:5000/ "HTTP/1.1 200 OK"

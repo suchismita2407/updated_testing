@@ -1,0 +1,1457 @@
+{
+  "test_name": "prompt_test_10x5",
+  "timestamp": "2025-12-06T09:25:42.288675",
+  "total_responses": 50,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 307.207,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 277.501,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 266.651,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 265.918,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 274.73900000000003,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 279.814,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 268.12,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 273.201,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 274.42499999999995,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 255.99,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 282.882,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 267.01599999999996,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 292.126,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 259.297,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 257.99,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 269.515,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 270.404,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 278.957,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 265.953,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 279.35900000000004,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 268.58700000000005,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 273.533,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 277.432,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 256.658,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 256.544,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 241.40200000000002,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 266.685,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 270.16499999999996,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 263.21,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 282.13500000000005,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 261.73400000000004,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 284.512,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 254.41599999999997,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 267.216,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 268.127,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 278.18,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 271.05899999999997,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 252.164,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 279.931,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 282.90900000000005,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 269.86,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 264.044,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 282.372,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 267.14700000000005,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 283.95599999999996,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Cybersecurity Enhancement",
+        "description": "Government company seeking cybersecurity enhancement solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "Real-time analytics"
+        ],
+        "budget_range": "$386K-$1161K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking cybersecurity enhancement solutions\nIndustry: Government\nRequirements: ['Scalable architecture', 'Cost optimization', 'Real-time analytics']",
+      "status_code": 401,
+      "response_time_ms": 277.575,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Manufacturing",
+        "type": "Process Automation",
+        "description": "Manufacturing company seeking process automation solutions",
+        "requirements": [
+          "Scalable architecture",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$127K-$1895K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Manufacturing company seeking process automation solutions\nIndustry: Manufacturing\nRequirements: ['Scalable architecture', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 283.40999999999997,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Banking",
+        "type": "IoT Deployment",
+        "description": "Banking company seeking iot deployment solutions",
+        "requirements": [
+          "High security compliance",
+          "24/7 support",
+          "Cost optimization",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$478K-$507K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking iot deployment solutions\nIndustry: Banking\nRequirements: ['High security compliance', '24/7 support', 'Cost optimization', 'AI/ML capabilities']",
+      "status_code": 401,
+      "response_time_ms": 270.58700000000005,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Healthcare",
+        "type": "Mobile App Development",
+        "description": "Healthcare company seeking mobile app development solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Scalable architecture"
+        ],
+        "budget_range": "$262K-$1472K",
+        "timeline": "12 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking mobile app development solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Scalable architecture']",
+      "status_code": 401,
+      "response_time_ms": 276.94,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Mobile access",
+          "Scalable architecture",
+          "Multi-cloud support"
+        ],
+        "budget_range": "$403K-$632K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Mobile access', 'Scalable architecture', 'Multi-cloud support']",
+      "status_code": 401,
+      "response_time_ms": 267.398,
+      "response_data": {
+        "error": "HTTP 401",
+        "response_text": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "success": false,
+      "has_results": false,
+      "results_count": 0
+    }
+  ]
+}

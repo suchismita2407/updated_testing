@@ -1,0 +1,20 @@
+[
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 993.9789999999999,
+    "timestamp": "2025-12-05T18:20:29.194633",
+    "details": {
+      "username": "sales1",
+      "expected_success": true,
+      "actual_success": true,
+      "status_code": 0,
+      "duration_ms": 993.9789999999999,
+      "user_received": true,
+      "error": null
+    }
+  }
+]

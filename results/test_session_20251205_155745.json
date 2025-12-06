@@ -1,0 +1,107 @@
+[
+  {
+    "test_id": "health_check",
+    "test_type": "system",
+    "test_name": "Service Health Check",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1.769,
+    "timestamp": "2025-12-05T15:56:50.320374",
+    "details": {
+      "service": "Sales EVA",
+      "status": "healthy",
+      "response_time_ms": 328.017
+    }
+  },
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Quick Login Test",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1006.6139999999999,
+    "timestamp": "2025-12-05T15:56:57.310562",
+    "details": {
+      "username": "sales1",
+      "is_valid": true,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2007.5409999999997,
+    "timestamp": "2025-12-05T15:56:59.324881",
+    "details": {
+      "function": "matching",
+      "test_type": "agent"
+    }
+  },
+  {
+    "test_id": "e2e_Quick_Banking",
+    "test_type": "e2e",
+    "test_name": "E2E Quick Banking",
+    "status": "passed",
+    "score": 0.8,
+    "duration_ms": 4001.2679999999996,
+    "timestamp": "2025-12-05T15:57:03.329128",
+    "details": {
+      "name": "Quick Banking",
+      "scenario": "Bank needs basic digital transformation"
+    }
+  },
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1012.6250000000001,
+    "timestamp": "2025-12-05T15:57:18.043978",
+    "details": {
+      "username": "sales1",
+      "is_valid": true,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "prompt_10_20",
+    "test_type": "prompt",
+    "test_name": "Prompt Test (10 prompts)",
+    "status": "passed",
+    "score": 0.75,
+    "duration_ms": 3007.758,
+    "timestamp": "2025-12-05T15:57:34.788887",
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 20
+    }
+  },
+  {
+    "test_id": "kb_coverage",
+    "test_type": "kb",
+    "test_name": "KB coverage",
+    "status": "passed",
+    "score": 0.9,
+    "duration_ms": 1512.631,
+    "timestamp": "2025-12-05T15:57:43.791640",
+    "details": {
+      "category": "coverage"
+    }
+  },
+  {
+    "test_id": "kb_freshness",
+    "test_type": "kb",
+    "test_name": "KB freshness",
+    "status": "passed",
+    "score": 0.9,
+    "duration_ms": 1513.654,
+    "timestamp": "2025-12-05T15:57:45.345632",
+    "details": {
+      "category": "freshness"
+    }
+  }
+]

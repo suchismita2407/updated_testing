@@ -1,0 +1,62 @@
+[
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Quick Login Test",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1736.2759999999998,
+    "timestamp": "2025-12-05T16:21:09.273081",
+    "details": {
+      "username": "sales1",
+      "expected_success": true,
+      "actual_success": true,
+      "status_code": 0,
+      "duration_ms": 1736.2759999999998,
+      "user_received": true,
+      "error": null
+    }
+  },
+  {
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "status": "passed",
+    "score": 0.8200000000000001,
+    "duration_ms": 283.123,
+    "timestamp": "2025-12-05T16:21:09.597312",
+    "details": {
+      "function": "matching",
+      "query": "Find relevant AI and cloud solutions for banking fraud detection",
+      "status_code": 200,
+      "duration_ms": 283.123,
+      "has_results": true,
+      "results_count": 1,
+      "sample_results": [
+        {
+          "content": "This is a sample offering matching your query",
+          "score": 0.85,
+          "title": "Sample Offering 1",
+          "type": "offering"
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "e2e_Quick_Banking",
+    "test_type": "e2e",
+    "test_name": "E2E Quick Banking",
+    "status": "passed",
+    "score": 0.8200000000000001,
+    "duration_ms": 1166.8719999999998,
+    "timestamp": "2025-12-05T16:21:10.764184",
+    "details": {
+      "scenario": "Quick Banking",
+      "query_used": "Bank needs basic digital transformation",
+      "login_success": true,
+      "profile_access": true,
+      "rag_results_count": 1,
+      "rag_score": 0.8200000000000001
+    }
+  }
+]

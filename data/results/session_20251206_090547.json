@@ -1,0 +1,2599 @@
+[
+  {
+    "timer_id": "prompt_test_10x5_6eace4bf",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "failed",
+    "score": 0.2,
+    "duration_ms": 14106.319,
+    "timestamp": "2025-12-06T09:00:06.685519",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 0,
+        "total_responses": 0,
+        "avg_response_length": 0,
+        "avg_response_time": 274.33646,
+        "prompt_performance": {},
+        "category_performance": {}
+      },
+      "detailed_results": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 257.12800000000004,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 263.339,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 271.197,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 285.75800000000004,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 279.271,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 261.012,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 273.707,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 311.315,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 271.365,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 283.25899999999996,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 276.812,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 272.973,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 282.174,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.011,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 276.144,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 273.352,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 295.329,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 282.059,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 265.13100000000003,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 270.346,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are th...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 283.439,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.402,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 271.16499999999996,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 283.138,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 277.05400000000003,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 281.015,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 271.265,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 266.914,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 265.944,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 251.32700000000003,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 283.963,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 265.649,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 278.177,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 275.89599999999996,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 288.923,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 272.287,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 267.853,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 267.128,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 281.83599999999996,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 268.23,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 285.317,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 293.694,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 265.027,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 263.628,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 269.71099999999996,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are t...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Retail company seeking mobile app development solutions",
+              "status_code": 401,
+              "response_time_ms": 258.684,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 272.515,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Healthcare company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 268.668,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Education company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 283.304,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking data analytics solutions",
+              "status_code": 401,
+              "response_time_ms": 264.988,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        }
+      ],
+      "score_components": {
+        "success_rate": 0.0,
+        "response_quality": 0.0,
+        "response_time": 20,
+        "coverage": 0
+      },
+      "total_score": 20.0,
+      "max_score": 100,
+      "best_prompt_type": null,
+      "best_prompt_score": 0
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 0.0,
+      "avg_response_time_ms": 274.33646,
+      "best_performing_prompt": null
+    },
+    "justification": "Prompt testing failed with only 0.0% success rate",
+    "start_time": "2025-12-06T08:59:52.579200",
+    "end_time": "2025-12-06T09:00:06.685519"
+  },
+  {
+    "timer_id": "prompt_test_10x5_530574dc",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "failed",
+    "score": 0.2,
+    "duration_ms": 13529.166,
+    "timestamp": "2025-12-06T09:00:56.831475",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 0,
+        "total_responses": 0,
+        "avg_response_length": 0,
+        "avg_response_time": 270.43914,
+        "prompt_performance": {},
+        "category_performance": {}
+      },
+      "detailed_results": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 265.671,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 266.79,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 277.677,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 276.594,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 280.392,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 256.003,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 283.983,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 275.11600000000004,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 256.261,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 269.861,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 273.92499999999995,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 257.624,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 275.187,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 264.019,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 275.509,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 273.55400000000003,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 270.34799999999996,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 274.648,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 268.737,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 283.572,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are th...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 284.9,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 263.841,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 266.394,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 266.649,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 270.055,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 267.336,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 266.356,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 278.074,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 281.678,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 252.946,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 267.067,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 266.66200000000003,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 270.175,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 281.452,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 264.961,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 267.324,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.365,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 260.247,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 268.74199999999996,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 285.37600000000003,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 282.132,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.336,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 264.824,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.775,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 279.126,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are t...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Insurance company seeking digital transformation solutions",
+              "status_code": 401,
+              "response_time_ms": 269.084,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Banking company seeking process automation solutions",
+              "status_code": 401,
+              "response_time_ms": 264.03900000000004,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 273.533,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 401,
+              "response_time_ms": 261.26500000000004,
+              "success": false,
+              "error": "HTTP 401"
+            },
+            {
+              "test_case": "Government company seeking cybersecurity enhancement solutions",
+              "status_code": 401,
+              "response_time_ms": 263.772,
+              "success": false,
+              "error": "HTTP 401"
+            }
+          ],
+          "success_rate": 0.0
+        }
+      ],
+      "score_components": {
+        "success_rate": 0.0,
+        "response_quality": 0.0,
+        "response_time": 20,
+        "coverage": 0
+      },
+      "total_score": 20.0,
+      "max_score": 100,
+      "best_prompt_type": null,
+      "best_prompt_score": 0
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 0.0,
+      "avg_response_time_ms": 270.43914,
+      "best_performing_prompt": null
+    },
+    "justification": "Prompt testing failed with only 0.0% success rate",
+    "start_time": "2025-12-06T09:00:43.302309",
+    "end_time": "2025-12-06T09:00:56.831475"
+  },
+  {
+    "timer_id": "login_sales1_74412242",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 435.16700000000003,
+    "timestamp": "2025-12-06T09:01:04.099040",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 430.164,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T09:01:03.663873",
+    "end_time": "2025-12-06T09:01:04.099040"
+  },
+  {
+    "timer_id": "prompt_test_50x20_b1bf8b94",
+    "test_id": "prompt_test_50x20",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (50 prompts, 20 cases)",
+    "inputs": {
+      "prompt_count": 50,
+      "test_case_count": 20,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "passed",
+    "score": 0.8,
+    "duration_ms": 272812.821,
+    "timestamp": "2025-12-06T09:05:47.141636",
+    "outputs": {
+      "summary": {
+        "total_tests": 1000,
+        "successful_tests": 1000,
+        "total_responses": 1000,
+        "avg_response_length": 477.13,
+        "avg_response_time": 272.70088799999996,
+        "prompt_performance": {
+          "instructional": {
+            "count": 200,
+            "success": 200,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "role-based": {
+            "count": 200,
+            "success": 200,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "concise": {
+            "count": 200,
+            "success": 200,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "detailed": {
+            "count": 200,
+            "success": 200,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "conversational": {
+            "count": 200,
+            "success": 200,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          }
+        },
+        "category_performance": {
+          "Manufacturing": {
+            "count": 250,
+            "success": 250,
+            "avg_score": 0
+          },
+          "Retail": {
+            "count": 250,
+            "success": 250,
+            "avg_score": 0
+          },
+          "Healthcare": {
+            "count": 150,
+            "success": 150,
+            "avg_score": 0
+          },
+          "Government": {
+            "count": 50,
+            "success": 50,
+            "avg_score": 0
+          },
+          "Banking": {
+            "count": 100,
+            "success": 100,
+            "avg_score": 0
+          },
+          "Technology": {
+            "count": 150,
+            "success": 150,
+            "avg_score": 0
+          },
+          "Insurance": {
+            "count": 50,
+            "success": 50,
+            "avg_score": 0
+          }
+        }
+      },
+      "detailed_results": [
+        {
+          "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.507,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 270.31699999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 262.87300000000005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 270.63399999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 270.88800000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 264.034,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 298.385,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 262.339,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 270.83099999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 266.146,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 261.226,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 266.365,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.632,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 284.449,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 271.539,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 257.239,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 285.12,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 262.178,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 276.444,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 261.90799999999996,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 284.003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 279.97499999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 271.175,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 264.25,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 267.577,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.119,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 265.384,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 252.135,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.978,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 263.453,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 286.403,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 264.415,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 285.644,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 308.26599999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 275.90799999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 285.999,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 260.65,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 283.419,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 269.03,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 263.912,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 3: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.12399999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 266.45000000000005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 265.975,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 266.456,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.683,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 249.235,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 267.916,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 274.22400000000005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 256.602,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.034,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.126,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 287.058,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 261.46599999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 267.013,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 276.07599999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 260.179,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.623,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 271.555,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 278.89799999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 269.44800000000004,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 254.594,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 285.497,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 281.737,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 272.736,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.39599999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.36699999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 267.23999999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 275.032,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.7,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 266.461,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.201,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 278.121,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 278.912,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 276.125,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 272.86,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 292.89300000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 260.519,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 270.66499999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 279.18199999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 269.301,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are th...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 280.98,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 270.22200000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 252.191,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 292.703,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 292.843,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.946,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 265.341,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 276.878,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 265.795,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 278.723,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.248,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 267.17800000000005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 272.855,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 269.512,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 268.30199999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 279.161,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.384,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 279.055,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 258.408,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 283.494,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+          "prompt_type": "instructional",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 265.421,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 266.488,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 275.304,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 262.258,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 263.446,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 278.955,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 271.937,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 278.586,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.16200000000003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.11800000000005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 275.24399999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 266.697,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 267.476,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 294.76099999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 287.087,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 264.089,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 286.361,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 267.50800000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 261.943,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 271.082,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+          "prompt_type": "role-based",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.994,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 276.515,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 279.625,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.371,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.574,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 283.225,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 255.029,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 277.149,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 283.499,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 272.741,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 265.663,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 267.386,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 270.003,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 262.567,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 275.31,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 269.228,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.717,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 287.45799999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 282.188,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 272.356,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 8: Find solutions for:...",
+          "prompt_type": "concise",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 293.71799999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 260.654,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 288.53299999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 251.10399999999998,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 267.783,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.468,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 251.195,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 290.792,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.35900000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 285.44199999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 268.60699999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 276.323,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 292.48,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.382,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 266.46999999999997,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 271.827,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 277.649,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 273.854,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 258.896,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 287.775,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+          "prompt_type": "detailed",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.632,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 284.16999999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 267.152,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 259.93699999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 278.954,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 278.56199999999995,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 272.498,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 285.04,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 279.83599999999996,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 269.158,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 293.742,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 285.832,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 251.45499999999998,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.431,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 283.552,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 260.312,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 259.583,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 284.048,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 272.395,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 268.522,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        },
+        {
+          "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are t...",
+          "prompt_type": "conversational",
+          "results": [
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 288.031,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 280.752,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 282.036,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Government company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 265.375,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 273.256,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 282.313,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 273.175,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 260.826,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking process automation solutions",
+              "status_code": 200,
+              "response_time_ms": 293.651,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 284.526,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 281.092,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 289.87800000000004,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Banking company seeking digital transformation solutions",
+              "status_code": 200,
+              "response_time_ms": 280.457,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Insurance company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 269.055,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 280.877,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking data analytics solutions",
+              "status_code": 200,
+              "response_time_ms": 271.005,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Retail company seeking ai implementation solutions",
+              "status_code": 200,
+              "response_time_ms": 275.159,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Technology company seeking cloud migration solutions",
+              "status_code": 200,
+              "response_time_ms": 283.781,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Manufacturing company seeking mobile app development solutions",
+              "status_code": 200,
+              "response_time_ms": 270.082,
+              "success": true,
+              "has_results": true
+            },
+            {
+              "test_case": "Healthcare company seeking iot deployment solutions",
+              "status_code": 200,
+              "response_time_ms": 262.071,
+              "success": true,
+              "has_results": true
+            }
+          ],
+          "success_rate": 1.0
+        }
+      ],
+      "score_components": {
+        "success_rate": 40.0,
+        "response_quality": 10.0,
+        "response_time": 20,
+        "coverage": 10
+      },
+      "total_score": 80.0,
+      "max_score": 100,
+      "best_prompt_type": "instructional",
+      "best_prompt_score": 1.0
+    },
+    "details": {
+      "prompt_count": 50,
+      "test_case_count": 20,
+      "success_rate": 1.0,
+      "avg_response_time_ms": 272.70088799999996,
+      "best_performing_prompt": "instructional"
+    },
+    "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+    "start_time": "2025-12-06T09:01:14.328815",
+    "end_time": "2025-12-06T09:05:47.141636"
+  }
+]

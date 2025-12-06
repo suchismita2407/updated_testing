@@ -1,0 +1,218 @@
+[
+  {
+    "timer_id": "health_check_1207787a",
+    "test_id": "health_check",
+    "test_type": "system",
+    "test_name": "Service Health Check",
+    "inputs": {
+      "url": "http://localhost:5000"
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 19.661,
+    "timestamp": "2025-12-06T09:29:38.130376",
+    "outputs": {
+      "status_code": 200,
+      "response_time_ms": 261.357,
+      "is_healthy": true
+    },
+    "details": {
+      "service": "Sales EVA",
+      "status": "healthy",
+      "response_time_ms": 261.357
+    },
+    "justification": "Service responded with HTTP 200 status",
+    "start_time": "2025-12-06T09:29:38.110715",
+    "end_time": "2025-12-06T09:29:38.130376"
+  },
+  {
+    "timer_id": "agent_matching_c5ae0bba",
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "inputs": {
+      "function": "matching",
+      "query": "Find relevant AI and cloud solutions for banking fraud detection",
+      "expected_response": "JSON response with results",
+      "required_fields": [
+        "results",
+        "query"
+      ],
+      "min_results": 1
+    },
+    "status": "failed",
+    "score": 0.4,
+    "duration_ms": 739.27,
+    "timestamp": "2025-12-06T09:30:31.579981",
+    "outputs": {
+      "status_code": 401,
+      "response_data": {
+        "raw_response": "<!doctype html>\n<html lang=en>\n<title>401 Unauthorized</title>\n<h1>Unauthorized</h1>\n<p>The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn&#39;t understand how to supply the credentials required.</p>\n"
+      },
+      "response_time_ms": 265.083,
+      "score_components": {
+        "http_status": 0,
+        "response_format": 20,
+        "has_results": 0,
+        "response_time": 20
+      },
+      "total_score": 40,
+      "max_score": 100
+    },
+    "details": {
+      "function": "matching",
+      "query": "Find relevant AI and cloud solutions for banking fraud detection",
+      "response_keys": [
+        "raw_response"
+      ]
+    },
+    "justification": "Agent function failed. HTTP 401. Score breakdown: HTTP status (0/30), format (20/20), results (0/30), speed (20/20)",
+    "start_time": "2025-12-06T09:30:30.840711",
+    "end_time": "2025-12-06T09:30:31.579981"
+  },
+  {
+    "timer_id": "login_sales1_e5c37615",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 433.793,
+    "timestamp": "2025-12-06T09:30:47.446351",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 429.276,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T09:30:47.012558",
+    "end_time": "2025-12-06T09:30:47.446351"
+  },
+  {
+    "timer_id": "agent_matching_3e123a6e",
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "inputs": {
+      "function": "matching",
+      "query": "Find relevant AI and cloud solutions for banking fraud detection",
+      "expected_response": "JSON response with results",
+      "required_fields": [
+        "results",
+        "query"
+      ],
+      "min_results": 1
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 287.632,
+    "timestamp": "2025-12-06T09:30:51.676379",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "query": "Find relevant AI and cloud solutions for banking fraud detection",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "response_time_ms": 262.673,
+      "score_components": {
+        "http_status": 30,
+        "response_format": 20,
+        "has_results": 30,
+        "response_time": 20
+      },
+      "total_score": 100,
+      "max_score": 100
+    },
+    "details": {
+      "function": "matching",
+      "query": "Find relevant AI and cloud solutions for banking fraud detection",
+      "response_keys": [
+        "query",
+        "results"
+      ]
+    },
+    "justification": "Agent function responded successfully. Score based on: HTTP status (30/30), format (20/20), results (30/30), speed (20/20)",
+    "start_time": "2025-12-06T09:30:51.388747",
+    "end_time": "2025-12-06T09:30:51.676379"
+  },
+  {
+    "timer_id": "agent_gap_analysis_15bf1ef9",
+    "test_id": "agent_gap_analysis",
+    "test_type": "agent",
+    "test_name": "Agent gap_analysis",
+    "inputs": {
+      "function": "gap_analysis",
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "expected_response": "JSON response with results",
+      "required_fields": [
+        "results",
+        "query"
+      ],
+      "min_results": 1
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 280.353,
+    "timestamp": "2025-12-06T09:31:07.147431",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "query": "What are common gaps in digital transformation projects for banks?",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "response_time_ms": 272.307,
+      "score_components": {
+        "http_status": 30,
+        "response_format": 20,
+        "has_results": 30,
+        "response_time": 20
+      },
+      "total_score": 100,
+      "max_score": 100
+    },
+    "details": {
+      "function": "gap_analysis",
+      "query": "What are common gaps in digital transformation projects for banks?",
+      "response_keys": [
+        "query",
+        "results"
+      ]
+    },
+    "justification": "Agent function responded successfully. Score based on: HTTP status (30/30), format (20/20), results (30/30), speed (20/20)",
+    "start_time": "2025-12-06T09:31:06.867078",
+    "end_time": "2025-12-06T09:31:07.147431"
+  }
+]

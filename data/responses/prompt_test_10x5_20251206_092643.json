@@ -1,0 +1,1777 @@
+{
+  "test_name": "prompt_test_10x5",
+  "timestamp": "2025-12-06T09:26:43.602596",
+  "total_responses": 50,
+  "responses": [
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 276.955,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 257.09700000000004,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 266.409,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 282.827,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 1,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 266.621,
+      "response_data": {
+        "query": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 267.62399999999997,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 265.712,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 266.562,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 259.732,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 2,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 273.634,
+      "response_data": {
+        "query": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 267.901,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 284.71299999999997,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 297.72900000000004,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 270.438,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 3,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 3: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 279.889,
+      "response_data": {
+        "query": "Test Prompt 3: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 281.34999999999997,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 252.31900000000002,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 266.625,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 266.698,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 4,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 281.82,
+      "response_data": {
+        "query": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 268.067,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 274.884,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 268.298,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 287.795,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 5,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 266.315,
+      "response_data": {
+        "query": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 279.37800000000004,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 254.874,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 282.657,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 260.577,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 6,
+      "prompt_type": "instructional",
+      "prompt_content": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 258.563,
+      "response_data": {
+        "query": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 279.935,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 267.264,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 270.142,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 286.281,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 7,
+      "prompt_type": "role-based",
+      "prompt_content": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 261.129,
+      "response_data": {
+        "query": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 271.743,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 265.583,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 262.824,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 301.047,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 8,
+      "prompt_type": "concise",
+      "prompt_content": "Test Prompt 8: Find solutions for:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 265.017,
+      "response_data": {
+        "query": "Test Prompt 8: Find solutions for:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 282.53000000000003,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 294.363,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 268.827,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 271.64700000000005,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 9,
+      "prompt_type": "detailed",
+      "prompt_content": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 296.84,
+      "response_data": {
+        "query": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 1,
+      "test_case": {
+        "id": 1,
+        "industry": "Government",
+        "type": "Digital Transformation",
+        "description": "Government company seeking digital transformation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities",
+          "Real-time analytics"
+        ],
+        "budget_range": "$323K-$1174K",
+        "timeline": "10 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+      "status_code": 200,
+      "response_time_ms": 263.809,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Government company seeking digital transformation solutions\nIndustry: Government\nRequirements: ['24/7 support', 'AI/ML capabilities', 'Real-time analytics']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 2,
+      "test_case": {
+        "id": 2,
+        "industry": "Healthcare",
+        "type": "AI Implementation",
+        "description": "Healthcare company seeking ai implementation solutions",
+        "requirements": [
+          "AI/ML capabilities",
+          "Multi-cloud support",
+          "24/7 support"
+        ],
+        "budget_range": "$492K-$954K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+      "status_code": 200,
+      "response_time_ms": 283.577,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking ai implementation solutions\nIndustry: Healthcare\nRequirements: ['AI/ML capabilities', 'Multi-cloud support', '24/7 support']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 3,
+      "test_case": {
+        "id": 3,
+        "industry": "Retail",
+        "type": "Process Automation",
+        "description": "Retail company seeking process automation solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$284K-$664K",
+        "timeline": "11 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 287.435,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Retail company seeking process automation solutions\nIndustry: Retail\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 4,
+      "test_case": {
+        "id": 4,
+        "industry": "Banking",
+        "type": "Data Analytics",
+        "description": "Banking company seeking data analytics solutions",
+        "requirements": [
+          "24/7 support",
+          "AI/ML capabilities"
+        ],
+        "budget_range": "$407K-$1184K",
+        "timeline": "6 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+      "status_code": 200,
+      "response_time_ms": 267.146,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Banking company seeking data analytics solutions\nIndustry: Banking\nRequirements: ['24/7 support', 'AI/ML capabilities']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    },
+    {
+      "prompt_id": 10,
+      "prompt_type": "conversational",
+      "prompt_content": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+      "test_case_id": 5,
+      "test_case": {
+        "id": 5,
+        "industry": "Healthcare",
+        "type": "Data Analytics",
+        "description": "Healthcare company seeking data analytics solutions",
+        "requirements": [
+          "Multi-cloud support",
+          "Cost optimization"
+        ],
+        "budget_range": "$104K-$963K",
+        "timeline": "5 months"
+      },
+      "full_query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+      "status_code": 200,
+      "response_time_ms": 282.286,
+      "response_data": {
+        "query": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:\n\nOpportunity: Healthcare company seeking data analytics solutions\nIndustry: Healthcare\nRequirements: ['Multi-cloud support', 'Cost optimization']",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      },
+      "success": true,
+      "has_results": true,
+      "results_count": 1
+    }
+  ]
+}

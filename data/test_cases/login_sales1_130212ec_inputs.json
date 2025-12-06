@@ -1,0 +1,11 @@
+{
+  "timer_id": "login_sales1_130212ec",
+  "test_type": "login",
+  "test_name": "Valid credentials",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": true
+  },
+  "timestamp": "2025-12-06T09:26:18.600112"
+}

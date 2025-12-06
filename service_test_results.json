@@ -1,0 +1,102 @@
+{
+  "service_url": "http://localhost:5000",
+  "total_tests": 8,
+  "successful_tests": 6,
+  "failed_tests": 2,
+  "error_tests": 0,
+  "success_rate": 75.0,
+  "results": [
+    {
+      "endpoint": "/",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response": {
+        "service": "Sales EVA API",
+        "status": "ok"
+      }
+    },
+    {
+      "endpoint": "/login",
+      "method": "POST",
+      "username": "wronguser",
+      "status_code": 401,
+      "success": false,
+      "has_session_cookie": false,
+      "response": null
+    },
+    {
+      "endpoint": "/login",
+      "method": "POST",
+      "username": "sales1",
+      "status_code": 200,
+      "success": true,
+      "has_session_cookie": true,
+      "response": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "user_data": {
+        "id": 1,
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    {
+      "endpoint": "/profile",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response": {
+        "id": 1,
+        "role": "sales",
+        "username": "sales1"
+      }
+    },
+    {
+      "endpoint": "/opportunities",
+      "method": "GET",
+      "status_code": 200,
+      "success": true,
+      "response": "{\n  \"opportunities\": [\n    [\n      1,\n      \"Test Opportunity - 12:43:51\",\n      \"Bank needs AI-powered fraud detection system with cloud deployment\",\n      \"Test Client\",\n      1000000.0,\n      \"active\",\n      \"sales1\",\n      \"2025-12-05 07:13:51\"\n    ]\n  ]\n}\n"
+    },
+    {
+      "endpoint": "/api/rag/search",
+      "method": "POST",
+      "query": "AI fraud detection solutions",
+      "status_code": 200,
+      "success": true,
+      "response": {
+        "query": "AI fraud detection solutions",
+        "results": [
+          {
+            "content": "This is a sample offering matching your query",
+            "score": 0.85,
+            "title": "Sample Offering 1",
+            "type": "offering"
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "/logout",
+      "method": "POST",
+      "status_code": 200,
+      "success": true,
+      "response": {
+        "message": "Logged out successfully"
+      }
+    },
+    {
+      "endpoint": "/profile",
+      "method": "GET",
+      "status_code": 401,
+      "success": false,
+      "response": null
+    }
+  ]
+}

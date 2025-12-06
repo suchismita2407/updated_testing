@@ -1,0 +1,73 @@
+{
+  "timer_id": "e2e_quick_banking_f4b87c4c",
+  "test_id": "e2e_quick_banking",
+  "test_type": "e2e",
+  "test_name": "E2E Scenario: Quick Banking",
+  "inputs": {
+    "scenario_name": "Quick Banking",
+    "scenario_description": "Bank needs basic digital transformation",
+    "steps": [
+      "Login with valid credentials",
+      "Analyze opportunity with agent",
+      "Search knowledge base",
+      "Generate recommendations",
+      "Create proposal outline"
+    ]
+  },
+  "status": "passed",
+  "score": 0.8,
+  "duration_ms": 1375.481,
+  "timestamp": "2025-12-06T08:34:15.105565",
+  "outputs": {
+    "step_results": {
+      "login": {
+        "success": false,
+        "score": 0
+      },
+      "agent_analysis": {
+        "success": true,
+        "score": 25
+      },
+      "kb_search": {
+        "success": true,
+        "count": 3,
+        "score": 30.0
+      },
+      "recommendations": {
+        "success": true,
+        "count": 1,
+        "score": 15
+      },
+      "performance": {
+        "duration_ms": 1358.346,
+        "score": 10
+      }
+    },
+    "step_scores": {
+      "login": 0,
+      "agent_analysis": 25,
+      "kb_search": 30.0,
+      "recommendations": 15,
+      "performance": 10
+    },
+    "total_score": 80.0,
+    "max_score": 100,
+    "recommendations": [
+      {
+        "content": "This is a sample offering matching your query",
+        "score": 0.85,
+        "title": "Sample Offering 1",
+        "type": "offering"
+      }
+    ]
+  },
+  "details": {
+    "scenario_name": "Quick Banking",
+    "total_duration_ms": 1358.346,
+    "successful_steps": 3,
+    "total_steps": 4
+  },
+  "justification": "E2E scenario 'Quick Banking' completed successfully with 80.0/100 points",
+  "start_time": "2025-12-06T08:34:13.730084",
+  "end_time": "2025-12-06T08:34:15.105565"
+}

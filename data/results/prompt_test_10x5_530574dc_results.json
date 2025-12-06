@@ -1,0 +1,481 @@
+{
+  "timer_id": "prompt_test_10x5_530574dc",
+  "test_id": "prompt_test_10x5",
+  "test_type": "prompt",
+  "test_name": "Prompt Testing (10 prompts, 5 cases)",
+  "inputs": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "prompt_types": [
+      "instructional",
+      "role-based",
+      "concise",
+      "detailed",
+      "conversational"
+    ],
+    "test_categories": [
+      "banking",
+      "retail",
+      "healthcare",
+      "manufacturing",
+      "technology"
+    ]
+  },
+  "status": "failed",
+  "score": 0.2,
+  "duration_ms": 13529.166,
+  "timestamp": "2025-12-06T09:00:56.831475",
+  "outputs": {
+    "summary": {
+      "total_tests": 50,
+      "successful_tests": 0,
+      "total_responses": 0,
+      "avg_response_length": 0,
+      "avg_response_time": 270.43914,
+      "prompt_performance": {},
+      "category_performance": {}
+    },
+    "detailed_results": [
+      {
+        "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+        "prompt_type": "instructional",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 265.671,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 266.79,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 277.677,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 276.594,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 280.392,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+        "prompt_type": "role-based",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 256.003,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 283.983,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 275.11600000000004,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 256.261,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 269.861,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 3: Find solutions for:...",
+        "prompt_type": "concise",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 273.92499999999995,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 257.624,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 275.187,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 264.019,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 275.509,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+        "prompt_type": "detailed",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 273.55400000000003,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 270.34799999999996,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 274.648,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 268.737,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 283.572,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are th...",
+        "prompt_type": "conversational",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 284.9,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 263.841,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 266.394,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 266.649,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 270.055,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offer...",
+        "prompt_type": "instructional",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 267.336,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 266.356,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 278.074,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 281.678,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 252.946,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions...",
+        "prompt_type": "role-based",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 267.067,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 266.66200000000003,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 270.175,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 281.452,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 264.961,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 8: Find solutions for:...",
+        "prompt_type": "concise",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 267.324,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 269.365,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 260.247,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 268.74199999999996,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 285.37600000000003,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements,...",
+        "prompt_type": "detailed",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 282.132,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 269.336,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 264.824,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 269.775,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 279.126,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      },
+      {
+        "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are t...",
+        "prompt_type": "conversational",
+        "results": [
+          {
+            "test_case": "Insurance company seeking digital transformation solutions",
+            "status_code": 401,
+            "response_time_ms": 269.084,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Banking company seeking process automation solutions",
+            "status_code": 401,
+            "response_time_ms": 264.03900000000004,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Insurance company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 273.533,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Technology company seeking ai implementation solutions",
+            "status_code": 401,
+            "response_time_ms": 261.26500000000004,
+            "success": false,
+            "error": "HTTP 401"
+          },
+          {
+            "test_case": "Government company seeking cybersecurity enhancement solutions",
+            "status_code": 401,
+            "response_time_ms": 263.772,
+            "success": false,
+            "error": "HTTP 401"
+          }
+        ],
+        "success_rate": 0.0
+      }
+    ],
+    "score_components": {
+      "success_rate": 0.0,
+      "response_quality": 0.0,
+      "response_time": 20,
+      "coverage": 0
+    },
+    "total_score": 20.0,
+    "max_score": 100,
+    "best_prompt_type": null,
+    "best_prompt_score": 0
+  },
+  "details": {
+    "prompt_count": 10,
+    "test_case_count": 5,
+    "success_rate": 0.0,
+    "avg_response_time_ms": 270.43914,
+    "best_performing_prompt": null
+  },
+  "justification": "Prompt testing failed with only 0.0% success rate",
+  "start_time": "2025-12-06T09:00:43.302309",
+  "end_time": "2025-12-06T09:00:56.831475"
+}

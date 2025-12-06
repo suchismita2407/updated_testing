@@ -1,0 +1,1059 @@
+[
+  {
+    "timer_id": "prompt_test_10x5_47a308fd",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "failed",
+    "score": 0.2,
+    "duration_ms": 14147.057999999999,
+    "timestamp": "2025-12-06T09:25:42.303797",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 0,
+        "total_responses": 0,
+        "avg_response_length": 0,
+        "avg_response_time": 271.33906,
+        "prompt_performance": {},
+        "category_performance": {},
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 307.207,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 277.501,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 266.651,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 265.918,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 274.73900000000003,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 279.814,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 268.12,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 273.201,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 274.42499999999995,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 255.99,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 282.882,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 267.01599999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 292.126,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 259.297,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 257.99,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 269.515,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 270.404,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 278.957,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 265.953,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 279.35900000000004,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 268.58700000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 273.533,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 277.432,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 256.658,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 256.544,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 241.40200000000002,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 266.685,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 270.16499999999996,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 263.21,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 282.13500000000005,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 261.73400000000004,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 284.512,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 254.41599999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 267.216,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 268.127,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 278.18,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 271.05899999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 252.164,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 279.931,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 282.90900000000005,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 269.86,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 264.044,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 282.372,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 267.14700000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 283.95599999999996,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking cybersecurity enhancement solutions",
+                "status_code": 401,
+                "response_time_ms": 277.575,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Manufacturing company seeking process automation solutions",
+                "status_code": 401,
+                "response_time_ms": 283.40999999999997,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Banking company seeking iot deployment solutions",
+                "status_code": 401,
+                "response_time_ms": 270.58700000000005,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking mobile app development solutions",
+                "status_code": 401,
+                "response_time_ms": 276.94,
+                "success": false,
+                "error": "HTTP 401"
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 401,
+                "response_time_ms": 267.398,
+                "success": false,
+                "error": "HTTP 401"
+              }
+            ],
+            "success_rate": 0.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 0.0,
+        "response_quality": 0.0,
+        "response_time": 20,
+        "coverage": 0
+      },
+      "total_score": 20.0,
+      "max_score": 100,
+      "best_prompt_type": null,
+      "best_prompt_score": 0,
+      "total_responses": 50,
+      "saved_responses_file": "prompt_test_10x5_20251206_092542.json"
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 0.0,
+      "avg_response_time_ms": 271.33906,
+      "best_performing_prompt": null,
+      "total_detailed_responses": 50
+    },
+    "justification": "Prompt testing failed with only 0.0% success rate",
+    "start_time": "2025-12-06T09:25:28.156739",
+    "end_time": "2025-12-06T09:25:42.303797"
+  },
+  {
+    "timer_id": "login_sales1_130212ec",
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Valid credentials",
+    "inputs": {
+      "username": "sales1",
+      "password": "[HIDDEN]",
+      "expected_success": true
+    },
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 456.2,
+    "timestamp": "2025-12-06T09:26:19.056312",
+    "outputs": {
+      "status_code": 200,
+      "response_data": {
+        "message": "Login successful",
+        "user": {
+          "id": 1,
+          "role": "sales",
+          "username": "sales1"
+        }
+      },
+      "session_established": true,
+      "response_time_ms": 451.852,
+      "actual_success": true
+    },
+    "details": {
+      "expected_success": true,
+      "actual_success": true,
+      "match": true
+    },
+    "justification": "Login succeeded as expected",
+    "start_time": "2025-12-06T09:26:18.600112",
+    "end_time": "2025-12-06T09:26:19.056312"
+  },
+  {
+    "timer_id": "prompt_test_10x5_eb613522",
+    "test_id": "prompt_test_10x5",
+    "test_type": "prompt",
+    "test_name": "Prompt Testing (10 prompts, 5 cases)",
+    "inputs": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "prompt_types": [
+        "instructional",
+        "role-based",
+        "concise",
+        "detailed",
+        "conversational"
+      ],
+      "test_categories": [
+        "banking",
+        "retail",
+        "healthcare",
+        "manufacturing",
+        "technology"
+      ]
+    },
+    "status": "passed",
+    "score": 0.78,
+    "duration_ms": 13697.277,
+    "timestamp": "2025-12-06T09:26:43.608671",
+    "outputs": {
+      "summary": {
+        "total_tests": 50,
+        "successful_tests": 50,
+        "total_responses": 50,
+        "avg_response_length": 419.1,
+        "avg_response_time": 273.26975999999996,
+        "prompt_performance": {
+          "instructional": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "role-based": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "concise": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "detailed": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          },
+          "conversational": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 1.0,
+            "success_rate": 1.0
+          }
+        },
+        "category_performance": {
+          "Government": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          },
+          "Healthcare": {
+            "count": 20,
+            "success": 20,
+            "avg_score": 0
+          },
+          "Retail": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          },
+          "Banking": {
+            "count": 10,
+            "success": 10,
+            "avg_score": 0
+          }
+        },
+        "detailed_responses": [
+          {
+            "prompt": "Test Prompt 1: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 276.955,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 257.09700000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 266.409,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 282.827,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 266.621,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 2: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 267.62399999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 265.712,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 266.562,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 259.732,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 273.634,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 3: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 267.901,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 284.71299999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 297.72900000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 270.438,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 279.889,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 4: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 281.34999999999997,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 252.31900000000002,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 266.625,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 266.698,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 281.82,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 5: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 268.067,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 274.884,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 268.298,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 287.795,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 266.315,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 6: Analyze the following sales opportunity and provide relevant solutions from our offerings.",
+            "prompt_type": "instructional",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 279.37800000000004,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 254.874,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 282.657,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 260.577,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 258.563,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 7: As a sales expert, review this opportunity and suggest the most appropriate solutions.",
+            "prompt_type": "role-based",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 279.935,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 267.264,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 270.142,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 286.281,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 261.129,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 8: Find solutions for:",
+            "prompt_type": "concise",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 271.743,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 265.583,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 262.824,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 301.047,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 265.017,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 9: Please analyze this sales opportunity in detail. Consider the industry, requirements, and business objectives. Provide comprehensive recommendations with relevant solutions from our portfolio.",
+            "prompt_type": "detailed",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 282.53000000000003,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 294.363,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 268.827,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 271.64700000000005,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 296.84,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          },
+          {
+            "prompt": "Test Prompt 10: Hey, I've got this opportunity. Can you help me find the right solutions? Here are the details:",
+            "prompt_type": "conversational",
+            "responses": [
+              {
+                "test_case": "Government company seeking digital transformation solutions",
+                "status_code": 200,
+                "response_time_ms": 263.809,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking ai implementation solutions",
+                "status_code": 200,
+                "response_time_ms": 283.577,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Retail company seeking process automation solutions",
+                "status_code": 200,
+                "response_time_ms": 287.435,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Banking company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 267.146,
+                "success": true,
+                "has_results": true
+              },
+              {
+                "test_case": "Healthcare company seeking data analytics solutions",
+                "status_code": 200,
+                "response_time_ms": 282.286,
+                "success": true,
+                "has_results": true
+              }
+            ],
+            "success_rate": 1.0
+          }
+        ]
+      },
+      "score_components": {
+        "success_rate": 40.0,
+        "response_quality": 10.0,
+        "response_time": 20,
+        "coverage": 8
+      },
+      "total_score": 78.0,
+      "max_score": 100,
+      "best_prompt_type": "instructional",
+      "best_prompt_score": 1.0,
+      "total_responses": 50,
+      "saved_responses_file": "prompt_test_10x5_20251206_092643.json"
+    },
+    "details": {
+      "prompt_count": 10,
+      "test_case_count": 5,
+      "success_rate": 1.0,
+      "avg_response_time_ms": 273.26975999999996,
+      "best_performing_prompt": "instructional",
+      "total_detailed_responses": 50
+    },
+    "justification": "Prompt testing passed with 100.0% success rate. Best prompt type: instructional (1.00)",
+    "start_time": "2025-12-06T09:26:29.911394",
+    "end_time": "2025-12-06T09:26:43.608671"
+  }
+]

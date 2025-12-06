@@ -1,0 +1,43 @@
+[
+  {
+    "test_id": "health_check",
+    "test_type": "system",
+    "test_name": "Service Health Check",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1.769,
+    "timestamp": "2025-12-05T15:56:50.320374",
+    "details": {
+      "service": "Sales EVA",
+      "status": "healthy",
+      "response_time_ms": 328.017
+    }
+  },
+  {
+    "test_id": "login_sales1",
+    "test_type": "login",
+    "test_name": "Quick Login Test",
+    "status": "passed",
+    "score": 1.0,
+    "duration_ms": 1006.6139999999999,
+    "timestamp": "2025-12-05T15:56:57.310562",
+    "details": {
+      "username": "sales1",
+      "is_valid": true,
+      "test_type": "login"
+    }
+  },
+  {
+    "test_id": "agent_matching",
+    "test_type": "agent",
+    "test_name": "Agent matching",
+    "status": "passed",
+    "score": 0.85,
+    "duration_ms": 2007.5409999999997,
+    "timestamp": "2025-12-05T15:56:59.324881",
+    "details": {
+      "function": "matching",
+      "test_type": "agent"
+    }
+  }
+]

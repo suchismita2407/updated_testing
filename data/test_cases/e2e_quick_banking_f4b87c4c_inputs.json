@@ -1,0 +1,17 @@
+{
+  "timer_id": "e2e_quick_banking_f4b87c4c",
+  "test_type": "e2e",
+  "test_name": "E2E Scenario: Quick Banking",
+  "inputs": {
+    "scenario_name": "Quick Banking",
+    "scenario_description": "Bank needs basic digital transformation",
+    "steps": [
+      "Login with valid credentials",
+      "Analyze opportunity with agent",
+      "Search knowledge base",
+      "Generate recommendations",
+      "Create proposal outline"
+    ]
+  },
+  "timestamp": "2025-12-06T08:34:13.730084"
+}

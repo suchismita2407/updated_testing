@@ -1,0 +1,16 @@
+{
+  "timer_id": "agent_gap_analysis_15bf1ef9",
+  "test_type": "agent",
+  "test_name": "Agent gap_analysis",
+  "inputs": {
+    "function": "gap_analysis",
+    "query": "What are common gaps in digital transformation projects for banks?",
+    "expected_response": "JSON response with results",
+    "required_fields": [
+      "results",
+      "query"
+    ],
+    "min_results": 1
+  },
+  "timestamp": "2025-12-06T09:31:06.867078"
+}

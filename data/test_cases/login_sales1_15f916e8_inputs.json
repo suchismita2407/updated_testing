@@ -1,0 +1,11 @@
+{
+  "timer_id": "login_sales1_15f916e8",
+  "test_type": "login",
+  "test_name": "Quick Login Test",
+  "inputs": {
+    "username": "sales1",
+    "password": "[HIDDEN]",
+    "expected_success": true
+  },
+  "timestamp": "2025-12-05T19:50:48.779225"
+}
